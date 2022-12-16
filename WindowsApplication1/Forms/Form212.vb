@@ -1,4 +1,4 @@
-Public Class Form212
+ÔªøPublic Class Form212
     Inherits System.Windows.Forms.Form
     Dim found As Boolean
     Sub confirm()
@@ -18,65 +18,65 @@ Public Class Form212
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         If ComboBox1.Text = "" Then
-            MsgBox("«œŒ· «”„ «·„” Œœ„", MsgBoxStyle.Information)
+            MsgBox("Ÿäÿ±ÿ¨Ÿâ ÿ•ÿØÿÆÿßŸÑ ÿßÿ≥ŸÖ ÿßŸÑŸÖÿ≥ÿ™ÿÆÿØŸÖ", MsgBoxStyle.Information)
             ComboBox1.Focus()
             Exit Sub
         End If
         If TextBox2.Text = "" Then
-            MsgBox("«œŒ· ﬂ·„… «·„—Ê—", MsgBoxStyle.Information)
+            MsgBox("Ÿäÿ±ÿ¨Ÿâ ÿ•ÿØÿÆÿßŸÑ ŸÉŸÑŸÖÿ© ÿßŸÑŸÖÿ±Ÿàÿ±", MsgBoxStyle.Information)
             TextBox2.Focus()
             Exit Sub
         End If
         If TextBox3.Text = "" Then
-            MsgBox("«œŒ·  √ﬂÌœ ﬂ·„… «·„—Ê—", MsgBoxStyle.Information)
+            MsgBox("Ÿäÿ±ÿ¨Ÿâ ÿ•ÿØÿÆÿßŸÑ ÿ™ÿ£ŸÉŸäÿØ ŸÉŸÑŸÖÿ© ÿßŸÑŸÖÿ±Ÿàÿ±", MsgBoxStyle.Information)
             TextBox3.Focus()
             Exit Sub
         End If
         If TextBox3.Text <> TextBox2.Text Then
-            MsgBox("⁄œ„  ÿ«»ﬁ ﬂ·„… «·„—Ê— Ê  √ﬂÌœ ﬂ·„… «·„—Ê—", MsgBoxStyle.Information)
+            MsgBox("ŸÉŸÑŸÖÿ© ÿßŸÑŸÖÿ±Ÿàÿ± ÿ∫Ÿäÿ± ŸÖÿ™ÿ∑ÿßÿ®ŸÇÿ©", MsgBoxStyle.Information)
             TextBox3.Clear()
             TextBox3.Focus()
             Exit Sub
         End If
         confirm()
         If found = True Then
-            MsgBox("«·„” Œœ„ „ÊÃÊœ „”»ﬁ«", MsgBoxStyle.Information)
+            MsgBox("Ÿáÿ∞ÿß ÿßŸÑŸÖÿ≥ÿ™ÿÆÿØŸÖ ŸÖŸàÿ¨ŸàÿØ ŸÖÿ≥ÿ®ŸÇÿßŸã", MsgBoxStyle.Information)
             Exit Sub
         End If
         If RadioButton1.Checked = True Or RadioButton2.Checked = True Or RadioButton4.Checked = True Or RadioButton5.Checked = True Then
             Call Class1.CONNIC()
             Dim s As String = "insert into users (user_name,user_pass,USER_TYPE,t1,t2,t3,t4,t5,t6,t7,t8,T9,T10,T11,T12,T13,T14)values (@user_name,@user_pass,@USER_TYPE,@t1,@t2,@t3,@t4,@t5,@t6,@t7,@t8,@T9,@T10,@T11,@T12,@T13,@T14)"
             Dim cm As New SqlClient.SqlCommand(s, cn)
-            cm.Parameters.AddWithValue("@user_name", ComboBox1.Text) '«”„ «·„” Œœ„
-            cm.Parameters.AddWithValue("@user_pass", TextBox2.Text)  'ﬂ·„… «·„—Ê—
-            cm.Parameters.AddWithValue("@USER_TYPE", Me.Label4.Text)  'ﬂ·„… «·„—Ê—
-            cm.Parameters.AddWithValue("@t1", CheckBox1.Checked) '«·«÷«›Â
-            cm.Parameters.AddWithValue("@t2", CheckBox2.Checked) '«·Õ–›
-            cm.Parameters.AddWithValue("@t3", CheckBox3.Checked) '«·„Ã„Ê⁄« 
-            cm.Parameters.AddWithValue("@t4", CheckBox4.Checked) '«·‰”Œ «·«Õ Ì«ÿÌ
-            cm.Parameters.AddWithValue("@t5", CheckBox5.Checked) '«· ﬁ«—Ì— Ê«·«” ›”«—« 
-            cm.Parameters.AddWithValue("@t6", CheckBox6.Checked) '«·„” Œœ„Ì‰
-            cm.Parameters.AddWithValue("@t7", CheckBox7.Checked) '«” —Ã«⁄ «·»Ì«‰« 
-            cm.Parameters.AddWithValue("@t8", CheckBox8.Checked) ' ⁄œÌ· «·»Ì«‰« 
-            cm.Parameters.AddWithValue("@t9", CheckBox9.Checked) ' ⁄œÌ· «·»Ì«‰« 
-            cm.Parameters.AddWithValue("@t10", CheckBox10.Checked) ' ⁄œÌ· «·»Ì«‰« 
-            cm.Parameters.AddWithValue("@t11", CheckBox11.Checked) ' ⁄œÌ· «·»Ì«‰« 
-            cm.Parameters.AddWithValue("@t12", CheckBox12.Checked) ' ⁄œÌ· «·»Ì«‰« 
-            cm.Parameters.AddWithValue("@t13", CheckBox13.Checked) ' ⁄œÌ· «·»Ì«‰« 
-            cm.Parameters.AddWithValue("@t14", CheckBox14.Checked) ' ⁄œÌ· «·»Ì«‰« 
+            cm.Parameters.AddWithValue("@user_name", ComboBox1.Text) '√á√ì√£ √á√°√£√ì√ä√é√è√£
+            cm.Parameters.AddWithValue("@user_pass", TextBox2.Text)  '√ü√°√£√â √á√°√£√ë√¶√ë
+            cm.Parameters.AddWithValue("@USER_TYPE", Me.Label4.Text)  '√ü√°√£√â √á√°√£√ë√¶√ë
+            cm.Parameters.AddWithValue("@t1", CheckBox1.Checked) '√á√°√á√ñ√á√ù√•
+            cm.Parameters.AddWithValue("@t2", CheckBox2.Checked) '√á√°√ç√ê√ù
+            cm.Parameters.AddWithValue("@t3", CheckBox3.Checked) '√á√°√£√å√£√¶√ö√á√ä
+            cm.Parameters.AddWithValue("@t4", CheckBox4.Checked) '√á√°√§√ì√é √á√°√á√ç√ä√≠√á√ò√≠
+            cm.Parameters.AddWithValue("@t5", CheckBox5.Checked) '√á√°√ä√û√á√ë√≠√ë √¶√á√°√á√ì√ä√ù√ì√á√ë√á√ä
+            cm.Parameters.AddWithValue("@t6", CheckBox6.Checked) '√á√°√£√ì√ä√é√è√£√≠√§
+            cm.Parameters.AddWithValue("@t7", CheckBox7.Checked) '√á√ì√ä√ë√å√á√ö √á√°√à√≠√á√§√á√ä
+            cm.Parameters.AddWithValue("@t8", CheckBox8.Checked) '√ä√ö√è√≠√° √á√°√à√≠√á√§√á√ä
+            cm.Parameters.AddWithValue("@t9", CheckBox9.Checked) '√ä√ö√è√≠√° √á√°√à√≠√á√§√á√ä
+            cm.Parameters.AddWithValue("@t10", CheckBox10.Checked) '√ä√ö√è√≠√° √á√°√à√≠√á√§√á√ä
+            cm.Parameters.AddWithValue("@t11", CheckBox11.Checked) '√ä√ö√è√≠√° √á√°√à√≠√á√§√á√ä
+            cm.Parameters.AddWithValue("@t12", CheckBox12.Checked) '√ä√ö√è√≠√° √á√°√à√≠√á√§√á√ä
+            cm.Parameters.AddWithValue("@t13", CheckBox13.Checked) '√ä√ö√è√≠√° √á√°√à√≠√á√§√á√ä
+            cm.Parameters.AddWithValue("@t14", CheckBox14.Checked) '√ä√ö√è√≠√° √á√°√à√≠√á√§√á√ä
             'If Label4.Text = 0 Then
-            'cm.Parameters.AddWithValue("@T9", True) ' ⁄œÌ· «·»Ì«‰« 
+            'cm.Parameters.AddWithValue("@T9", True) '√ä√ö√è√≠√° √á√°√à√≠√á√§√á√ä
             'Else
-            'cm.Parameters.AddWithValue("@T9", False) ' ⁄œÌ· «·»Ì«‰« 
+            'cm.Parameters.AddWithValue("@T9", False) '√ä√ö√è√≠√° √á√°√à√≠√á√§√á√ä
             'End If
             Try
                 Call Class1.CONNIC()
                 cm.ExecuteNonQuery()
-                MsgBox(" „  ≈œŒ«· »Ì«‰«  «·„” Œœ„", MsgBoxStyle.Information)
+                MsgBox("√ä√£√ä √Ö√è√é√á√° √à√≠√á√§√á√ä √á√°√£√ì√ä√é√è√£", MsgBoxStyle.Information)
                 If Me.RadioButton2.Checked = True Then
                     Dim s1 As String = "insert into dn(dn) values(@xxx1)"
                     Dim cm1 As New SqlClient.SqlCommand(s1, cn)
-                    cm1.Parameters.AddWithValue("@xxx1", ComboBox1.Text) '«”„ «·„” Œœ„
+                    cm1.Parameters.AddWithValue("@xxx1", ComboBox1.Text) '√á√ì√£ √á√°√£√ì√ä√é√è√£
                     Try
                         cm1.ExecuteNonQuery()
                     Catch ex As Exception
@@ -100,7 +100,7 @@ Public Class Form212
             End Try
             'clear()
         Else
-            MsgBox("√—ÃÊ «Œ Ì«— ’·«ÕÌ… «·„” Œœ„")
+            MsgBox("√É√ë√å√¶ √á√é√ä√≠√á√ë √ï√°√á√ç√≠√â √á√°√£√ì√ä√é√è√£")
         End If
     End Sub
 
@@ -122,57 +122,57 @@ Public Class Form212
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
         If ComboBox1.Text = "" Then
-            MsgBox("«œŒ· «”„ «·„” Œœ„", MsgBoxStyle.Information)
+            MsgBox("√á√è√é√° √á√ì√£ √á√°√£√ì√ä√é√è√£", MsgBoxStyle.Information)
             ComboBox1.Focus()
             Exit Sub
         End If
         If TextBox2.Text = "" Then
-            MsgBox("«œŒ· ﬂ·„… «·„—Ê—", MsgBoxStyle.Information, My.Resources.warning)
+            MsgBox("√á√è√é√° √ü√°√£√â √á√°√£√ë√¶√ë", MsgBoxStyle.Information, My.Resources.warning)
             TextBox2.Focus()
             Exit Sub
         End If
         If TextBox3.Text = "" Then
-            MsgBox("«œŒ·  √ﬂÌœ ﬂ·„… «·„—Ê—", MsgBoxStyle.Information)
+            MsgBox("√á√è√é√° √ä√É√ü√≠√è √ü√°√£√â √á√°√£√ë√¶√ë", MsgBoxStyle.Information)
             TextBox3.Focus()
             Exit Sub
         End If
         If TextBox3.Text <> TextBox2.Text Then
-            MsgBox("⁄œ„  ÿ«»ﬁ ﬂ·„… «·„—Ê— Ê  √ﬂÌœ ﬂ·„… «·„—Ê—", MsgBoxStyle.Information)
+            MsgBox("√ö√è√£ √ä√ò√á√à√û √ü√°√£√â √á√°√£√ë√¶√ë √¶ √ä√É√ü√≠√è √ü√°√£√â √á√°√£√ë√¶√ë", MsgBoxStyle.Information)
             TextBox3.Clear()
             TextBox3.Focus()
             Exit Sub
         End If
         confirm()
         'If found = True Then
-        '    MsgBox("«·„” Œœ„ „ÊÃÊœ „”»ﬁ«", MsgBoxStyle.Information)
+        '    MsgBox("√á√°√£√ì√ä√é√è√£ √£√¶√å√¶√è √£√ì√à√û√á√∞", MsgBoxStyle.Information)
         '    Exit Sub
         'End If
         Call Class1.CONNIC()
         Dim s As String = "update users set user_name=@user_name,user_pass=@user_pass,USER_TYPE=@USER_TYPE,t1=@t1,t2=@t2,t3=@t3,t4=@t4,t5=@t5,t6=@t6,t7=@t7,t8=@t8,t9=@t9,t10=@t10,t11=@t11,t12=@t12,t13=@t13,t14=@t14 where ID=@ID"
         Dim cm As New SqlClient.SqlCommand(s, cn)
-        cm.Parameters.AddWithValue("@user_name", ComboBox1.Text) '«”„ «·„” Œœ„
-        cm.Parameters.AddWithValue("@user_pass", TextBox2.Text)  'ﬂ·„… «·„—Ê—
-        cm.Parameters.AddWithValue("@USER_TYPE", Me.Label4.Text)  'ﬂ·„… «·„—Ê—
-        cm.Parameters.AddWithValue("@T1", CheckBox1.Checked) '«·«÷«›Â
-        cm.Parameters.AddWithValue("@T2", CheckBox2.Checked) '«·Õ–›
-        cm.Parameters.AddWithValue("@T3", CheckBox3.Checked) '«·„Ã„Ê⁄« 
-        cm.Parameters.AddWithValue("@T4", CheckBox4.Checked) '«·‰”Œ «·«Õ Ì«ÿÌ
-        cm.Parameters.AddWithValue("@T5", CheckBox5.Checked) '«· ﬁ«—Ì— Ê«·«” ›”«—« 
-        cm.Parameters.AddWithValue("@T6", CheckBox6.Checked) '«·„” Œœ„Ì‰
-        cm.Parameters.AddWithValue("@T7", CheckBox7.Checked) '«” —Ã«⁄ «·»Ì«‰« 
-        cm.Parameters.AddWithValue("@T8", CheckBox8.Checked) ' ⁄œÌ· «·»Ì«‰« 
-        cm.Parameters.AddWithValue("@t9", CheckBox9.Checked) ' ⁄œÌ· «·»Ì«‰« 
-        cm.Parameters.AddWithValue("@t10", CheckBox10.Checked) ' ⁄œÌ· «·»Ì«‰« 
-        cm.Parameters.AddWithValue("@t11", CheckBox11.Checked) ' ⁄œÌ· «·»Ì«‰« 
-        cm.Parameters.AddWithValue("@t12", CheckBox12.Checked) ' ⁄œÌ· «·»Ì«‰« 
-        cm.Parameters.AddWithValue("@t13", CheckBox13.Checked) ' ⁄œÌ· «·»Ì«‰« 
-        cm.Parameters.AddWithValue("@t14", CheckBox14.Checked) ' ⁄œÌ· «·»Ì«‰« 
+        cm.Parameters.AddWithValue("@user_name", ComboBox1.Text) '√á√ì√£ √á√°√£√ì√ä√é√è√£
+        cm.Parameters.AddWithValue("@user_pass", TextBox2.Text)  '√ü√°√£√â √á√°√£√ë√¶√ë
+        cm.Parameters.AddWithValue("@USER_TYPE", Me.Label4.Text)  '√ü√°√£√â √á√°√£√ë√¶√ë
+        cm.Parameters.AddWithValue("@T1", CheckBox1.Checked) '√á√°√á√ñ√á√ù√•
+        cm.Parameters.AddWithValue("@T2", CheckBox2.Checked) '√á√°√ç√ê√ù
+        cm.Parameters.AddWithValue("@T3", CheckBox3.Checked) '√á√°√£√å√£√¶√ö√á√ä
+        cm.Parameters.AddWithValue("@T4", CheckBox4.Checked) '√á√°√§√ì√é √á√°√á√ç√ä√≠√á√ò√≠
+        cm.Parameters.AddWithValue("@T5", CheckBox5.Checked) '√á√°√ä√û√á√ë√≠√ë √¶√á√°√á√ì√ä√ù√ì√á√ë√á√ä
+        cm.Parameters.AddWithValue("@T6", CheckBox6.Checked) '√á√°√£√ì√ä√é√è√£√≠√§
+        cm.Parameters.AddWithValue("@T7", CheckBox7.Checked) '√á√ì√ä√ë√å√á√ö √á√°√à√≠√á√§√á√ä
+        cm.Parameters.AddWithValue("@T8", CheckBox8.Checked) '√ä√ö√è√≠√° √á√°√à√≠√á√§√á√ä
+        cm.Parameters.AddWithValue("@t9", CheckBox9.Checked) '√ä√ö√è√≠√° √á√°√à√≠√á√§√á√ä
+        cm.Parameters.AddWithValue("@t10", CheckBox10.Checked) '√ä√ö√è√≠√° √á√°√à√≠√á√§√á√ä
+        cm.Parameters.AddWithValue("@t11", CheckBox11.Checked) '√ä√ö√è√≠√° √á√°√à√≠√á√§√á√ä
+        cm.Parameters.AddWithValue("@t12", CheckBox12.Checked) '√ä√ö√è√≠√° √á√°√à√≠√á√§√á√ä
+        cm.Parameters.AddWithValue("@t13", CheckBox13.Checked) '√ä√ö√è√≠√° √á√°√à√≠√á√§√á√ä
+        cm.Parameters.AddWithValue("@t14", CheckBox14.Checked) '√ä√ö√è√≠√° √á√°√à√≠√á√§√á√ä
         cm.Parameters.AddWithValue("@ID", CInt(Label5.Text))
 
         Try
             Call Class1.CONNIC()
             cm.ExecuteNonQuery()
-            MsgBox(" „  ⁄œÌ· »Ì«‰«  «·„” Œœ„", MsgBoxStyle.Information)
+            MsgBox("√ä√£ √ä√ö√è√≠√° √à√≠√á√§√á√ä √á√°√£√ì√ä√é√è√£", MsgBoxStyle.Information)
             Dim ds As String
             ds = "select * from users where id<>'" & 0 & "' "
             Dim ad7 As New SqlClient.SqlDataAdapter(ds, cn)
@@ -192,7 +192,7 @@ Public Class Form212
 
     Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
         If ComboBox1.Text = "" Then
-            MsgBox("«œŒ· «”„ «·„” Œœ„", MsgBoxStyle.Information)
+            MsgBox("√á√è√é√° √á√ì√£ √á√°√£√ì√ä√é√è√£", MsgBoxStyle.Information)
             ComboBox1.Focus()
             Exit Sub
         End If
@@ -202,9 +202,9 @@ Public Class Form212
         cm.Parameters.AddWithValue("@x1", ComboBox1.Text)
         Dim rd As SqlClient.SqlDataReader = cm.ExecuteReader
         If rd.Read = True Then
-            ComboBox1.Text = rd!user_name '«”„ «·„” Œœ„
-            TextBox2.Text = rd!user_pass 'ﬂ·„… «·„—Ê—
-            TextBox3.Text = rd!user_pass ' √ﬂÌœ ﬂ·„… «·„—Ê—
+            ComboBox1.Text = rd!user_name '√á√ì√£ √á√°√£√ì√ä√é√è√£
+            TextBox2.Text = rd!user_pass '√ü√°√£√â √á√°√£√ë√¶√ë
+            TextBox3.Text = rd!user_pass '√ä√É√ü√≠√è √ü√°√£√â √á√°√£√ë√¶√ë
             CheckBox1.Checked = rd!t1
             CheckBox2.Checked = rd!t2
             CheckBox3.Checked = rd!t3
@@ -221,7 +221,7 @@ Public Class Form212
             CheckBox14.Checked = rd!t14
 
         Else
-            MsgBox("«·„” Œœ„ €Ì— „ÊÃÊœ", MsgBoxStyle.Information)
+            MsgBox("√á√°√£√ì√ä√é√è√£ √õ√≠√ë √£√¶√å√¶√è", MsgBoxStyle.Information)
         End If
         rd.Close()
     End Sub
@@ -253,7 +253,7 @@ Public Class Form212
     Private Sub ComboBox1_KeyPress(sender As Object, e As KeyPressEventArgs) Handles ComboBox1.KeyPress
         If Asc(e.KeyChar) = Keys.Enter Then
             If ComboBox1.Text = "" Then
-                MsgBox("√œŒ· «”„ «·„” Œœ„")
+                MsgBox("√É√è√é√° √á√ì√£ √á√°√£√ì√ä√é√è√£")
                 ComboBox1.Focus()
             Else
                 TextBox2.Focus()
@@ -271,9 +271,9 @@ Public Class Form212
         rd = cm.ExecuteReader
         If rd.Read = True Then
             Me.Label5.Text = rd!id
-            ComboBox1.Text = rd!user_name '«”„ «·„” Œœ„
-            TextBox2.Text = rd!user_pass 'ﬂ·„… «·„—Ê—
-            TextBox3.Text = rd!user_pass ' √ﬂÌœ ﬂ·„… «·„—Ê—
+            ComboBox1.Text = rd!user_name '√á√ì√£ √á√°√£√ì√ä√é√è√£
+            TextBox2.Text = rd!user_pass '√ü√°√£√â √á√°√£√ë√¶√ë
+            TextBox3.Text = rd!user_pass '√ä√É√ü√≠√è √ü√°√£√â √á√°√£√ë√¶√ë
             Me.Label4.Text = rd!user_type
             If Me.Label4.Text = "1" Then
                 Me.RadioButton1.Checked = True
@@ -462,7 +462,7 @@ Public Class Form212
     Private Sub TextBox2_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TextBox2.KeyPress
         If Asc(e.KeyChar) = Keys.Enter Then
             If TextBox2.Text = "" Then
-                MsgBox("√œŒ· ﬂ·„… «·„—Ê—")
+                MsgBox("√É√è√é√° √ü√°√£√â √á√°√£√ë√¶√ë")
                 TextBox2.Focus()
             Else
                 TextBox3.Focus()
@@ -477,7 +477,7 @@ Public Class Form212
     Private Sub TextBox3_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TextBox3.KeyPress
         If Asc(e.KeyChar) = Keys.Enter Then
             If TextBox3.Text = "" Then
-                MsgBox("√œŒ· ﬂ·„… «·„—Ê—")
+                MsgBox("√É√è√é√° √ü√°√£√â √á√°√£√ë√¶√ë")
                 TextBox3.Focus()
             Else
                 If Button1.Enabled = True Then

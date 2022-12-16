@@ -168,6 +168,12 @@
     <Compile Include="Forms\ByDate1.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\ByDate2.Designer.vb">
+      <DependentUpon>ByDate2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ByDate2.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\EYWAA.Designer.vb">
       <DependentUpon>EYWAA.vb</DependentUpon>
     </Compile>
@@ -528,6 +534,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ByDate1.resx">
       <DependentUpon>ByDate1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ByDate2.resx">
+      <DependentUpon>ByDate2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\EYWAA.resx">
       <DependentUpon>EYWAA.vb</DependentUpon>

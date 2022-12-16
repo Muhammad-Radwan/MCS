@@ -40,6 +40,7 @@ Partial Class MAIN
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Button15 = New System.Windows.Forms.Button()
         Me.Button10 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
@@ -298,13 +299,30 @@ Partial Class MAIN
         '
         Me.Panel3.Anchor = System.Windows.Forms.AnchorStyles.Left
         Me.Panel3.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Panel3.Controls.Add(Me.Button15)
         Me.Panel3.Controls.Add(Me.Button10)
         Me.Panel3.Controls.Add(Me.Button9)
         Me.Panel3.Location = New System.Drawing.Point(316, 234)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(323, 151)
+        Me.Panel3.Size = New System.Drawing.Size(323, 221)
         Me.Panel3.TabIndex = 1
         Me.Panel3.Visible = False
+        '
+        'Button15
+        '
+        Me.Button15.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button15.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Button15.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button15.FlatAppearance.BorderSize = 4
+        Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button15.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button15.ForeColor = System.Drawing.Color.White
+        Me.Button15.Location = New System.Drawing.Point(8, 150)
+        Me.Button15.Name = "Button15"
+        Me.Button15.Size = New System.Drawing.Size(307, 60)
+        Me.Button15.TabIndex = 7
+        Me.Button15.Text = "تقرير الزكاة"
+        Me.Button15.UseVisualStyleBackColor = False
         '
         'Button10
         '
@@ -419,7 +437,7 @@ Partial Class MAIN
         Me.Panel4.BackColor = System.Drawing.SystemColors.ActiveCaption
         Me.Panel4.Controls.Add(Me.Button11)
         Me.Panel4.Controls.Add(Me.Button12)
-        Me.Panel4.Location = New System.Drawing.Point(316, 444)
+        Me.Panel4.Location = New System.Drawing.Point(316, 491)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(323, 151)
         Me.Panel4.TabIndex = 22
@@ -583,4 +601,5 @@ Partial Class MAIN
     Friend WithEvents Button13 As Button
     Friend WithEvents FlowLayoutPanel1 As FlowLayoutPanel
     Friend WithEvents Panel2 As Panel
+    Friend WithEvents Button15 As Button
 End Class

@@ -771,4 +771,9 @@
         f.ShowDialog()
         Me.Show()
     End Sub
+
+    Private Sub Button15_Click(sender As Object, e As EventArgs) Handles Button15.Click
+        Dim ZakahReport As New ByDate2
+        ZakahReport.ShowDialog()
+    End Sub
 End Class

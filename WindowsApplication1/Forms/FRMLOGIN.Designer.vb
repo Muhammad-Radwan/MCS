@@ -136,7 +136,7 @@ Partial Class FRMLOGIN
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Label3.Location = New System.Drawing.Point(5, -1)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(501, 173)
+        Me.Label3.Size = New System.Drawing.Size(501, 175)
         Me.Label3.TabIndex = 7
         Me.Label3.Text = "النسخة تجريبية"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -147,7 +147,7 @@ Partial Class FRMLOGIN
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox2.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(21, 141)
+        Me.TextBox2.Location = New System.Drawing.Point(21, 94)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(479, 28)
         Me.TextBox2.TabIndex = 8
