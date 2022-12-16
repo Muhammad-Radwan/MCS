@@ -1,4 +1,4 @@
-<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+ï»¿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
 Partial Class Form212
     Inherits System.Windows.Forms.Form
 
@@ -47,6 +47,7 @@ Partial Class Form212
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
         Me.RadioButton4 = New System.Windows.Forms.RadioButton()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
@@ -54,7 +55,6 @@ Partial Class Form212
         Me.Label4 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.RadioButton5 = New System.Windows.Forms.RadioButton()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -68,7 +68,7 @@ Partial Class Form212
         Me.CheckBox8.Name = "CheckBox8"
         Me.CheckBox8.Size = New System.Drawing.Size(84, 30)
         Me.CheckBox8.TabIndex = 9
-        Me.CheckBox8.Text = "ÇáãÏíäæä"
+        Me.CheckBox8.Text = "Ø§Ù„Ù…Ø¯ÙŠÙ†ÙˆÙ†"
         '
         'GroupBox1
         '
@@ -95,7 +95,7 @@ Partial Class Form212
         Me.GroupBox1.Size = New System.Drawing.Size(683, 162)
         Me.GroupBox1.TabIndex = 37
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "ÇáÕáÇÍíÇÊ"
+        Me.GroupBox1.Text = "Ø§Ù„ØµÙ„Ø§Ø­ÙŠØ§Øª"
         '
         'CheckBox14
         '
@@ -105,7 +105,7 @@ Partial Class Form212
         Me.CheckBox14.Name = "CheckBox14"
         Me.CheckBox14.Size = New System.Drawing.Size(112, 30)
         Me.CheckBox14.TabIndex = 17
-        Me.CheckBox14.Text = "ÅÏÇÑÉ ÇáÚãáíÇÊ"
+        Me.CheckBox14.Text = "Ø¥Ø¯Ø§Ø±Ø© Ø§Ù„Ø¹Ù…Ù„ÙŠØ§Øª"
         '
         'CheckBox13
         '
@@ -115,7 +115,7 @@ Partial Class Form212
         Me.CheckBox13.Name = "CheckBox13"
         Me.CheckBox13.Size = New System.Drawing.Size(190, 42)
         Me.CheckBox13.TabIndex = 16
-        Me.CheckBox13.Text = "ÅÏÇÑÉ ÇáãÓÊİíÏ æÇáÌåÇÊ"
+        Me.CheckBox13.Text = "Ø¥Ø¯Ø§Ø±Ø© Ø§Ù„Ù…Ø³ØªÙÙŠØ¯ ÙˆØ§Ù„Ø¬Ù‡Ø§Øª"
         '
         'CheckBox12
         '
@@ -125,7 +125,7 @@ Partial Class Form212
         Me.CheckBox12.Name = "CheckBox12"
         Me.CheckBox12.Size = New System.Drawing.Size(176, 43)
         Me.CheckBox12.TabIndex = 15
-        Me.CheckBox12.Text = "ÅÏÇÑÉ ÇáÃŞÓÇã æÇáÃØÈÇÁ"
+        Me.CheckBox12.Text = "Ø¥Ø¯Ø§Ø±Ø© Ø§Ù„Ø£Ù‚Ø³Ø§Ù… ÙˆØ§Ù„Ø£Ø·Ø¨Ø§Ø¡"
         '
         'CheckBox11
         '
@@ -135,7 +135,7 @@ Partial Class Form212
         Me.CheckBox11.Name = "CheckBox11"
         Me.CheckBox11.Size = New System.Drawing.Size(138, 43)
         Me.CheckBox11.TabIndex = 14
-        Me.CheckBox11.Text = "ÅÏÇÑÉ ÇáãÓÊÎÏãíä"
+        Me.CheckBox11.Text = "Ø¥Ø¯Ø§Ø±Ø© Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ†"
         '
         'CheckBox10
         '
@@ -145,7 +145,7 @@ Partial Class Form212
         Me.CheckBox10.Name = "CheckBox10"
         Me.CheckBox10.Size = New System.Drawing.Size(127, 42)
         Me.CheckBox10.TabIndex = 13
-        Me.CheckBox10.Text = "ÇáÚãáíÇÊ ÇáãäÌÒå"
+        Me.CheckBox10.Text = "Ø§Ù„Ø¹Ù…Ù„ÙŠØ§Øª Ø§Ù„Ù…Ù†Ø¬Ø²Ø©"
         '
         'CheckBox9
         '
@@ -155,7 +155,7 @@ Partial Class Form212
         Me.CheckBox9.Name = "CheckBox9"
         Me.CheckBox9.Size = New System.Drawing.Size(138, 41)
         Me.CheckBox9.TabIndex = 12
-        Me.CheckBox9.Text = "ãÓÇÚÏí ÇáÚãáíÇÊ"
+        Me.CheckBox9.Text = "Ù…Ø³Ø§Ø¹Ø¯ÙŠ Ø§Ù„Ø¹Ù…Ù„ÙŠØ§Øª"
         '
         'CheckBox5
         '
@@ -165,7 +165,7 @@ Partial Class Form212
         Me.CheckBox5.Name = "CheckBox5"
         Me.CheckBox5.Size = New System.Drawing.Size(73, 30)
         Me.CheckBox5.TabIndex = 11
-        Me.CheckBox5.Text = "ÇáÌåÇÊ"
+        Me.CheckBox5.Text = "Ø§Ù„Ø¬Ù‡Ø§Øª"
         '
         'CheckBox7
         '
@@ -174,7 +174,7 @@ Partial Class Form212
         Me.CheckBox7.Name = "CheckBox7"
         Me.CheckBox7.Size = New System.Drawing.Size(138, 30)
         Me.CheckBox7.TabIndex = 10
-        Me.CheckBox7.Text = "ÇáÅíÑÇÏÇÊ"
+        Me.CheckBox7.Text = "Ø§Ù„Ø¥ÙŠØ±Ø§Ø¯Ø§Øª"
         '
         'CheckBox6
         '
@@ -184,7 +184,7 @@ Partial Class Form212
         Me.CheckBox6.Name = "CheckBox6"
         Me.CheckBox6.Size = New System.Drawing.Size(138, 30)
         Me.CheckBox6.TabIndex = 8
-        Me.CheckBox6.Text = "ÇáãÕÑæİÇÊ"
+        Me.CheckBox6.Text = "Ø§Ù„Ù…ØµØ±ÙˆÙØ§Øª"
         '
         'CheckBox4
         '
@@ -194,7 +194,7 @@ Partial Class Form212
         Me.CheckBox4.Name = "CheckBox4"
         Me.CheckBox4.Size = New System.Drawing.Size(73, 46)
         Me.CheckBox4.TabIndex = 7
-        Me.CheckBox4.Text = "ÇáÃØÈÇÁ"
+        Me.CheckBox4.Text = "Ø§Ù„Ø£Ø·Ø¨Ø§Ø¡"
         '
         'CheckBox3
         '
@@ -204,7 +204,7 @@ Partial Class Form212
         Me.CheckBox3.Name = "CheckBox3"
         Me.CheckBox3.Size = New System.Drawing.Size(84, 30)
         Me.CheckBox3.TabIndex = 4
-        Me.CheckBox3.Text = "ÇáãÑÖì"
+        Me.CheckBox3.Text = "Ø§Ù„Ù…Ø±Ø¶Ù‰"
         '
         'CheckBox2
         '
@@ -214,7 +214,7 @@ Partial Class Form212
         Me.CheckBox2.Name = "CheckBox2"
         Me.CheckBox2.Size = New System.Drawing.Size(142, 30)
         Me.CheckBox2.TabIndex = 6
-        Me.CheckBox2.Text = "ÇáÇÓÊŞÈÇá"
+        Me.CheckBox2.Text = "Ø§Ù„Ø§Ø³ØªÙ‚Ø¨Ø§Ù„"
         '
         'CheckBox1
         '
@@ -224,7 +224,7 @@ Partial Class Form212
         Me.CheckBox1.Name = "CheckBox1"
         Me.CheckBox1.Size = New System.Drawing.Size(138, 30)
         Me.CheckBox1.TabIndex = 3
-        Me.CheckBox1.Text = "ÇáÅíæÇÁ"
+        Me.CheckBox1.Text = "Ø§Ù„Ø¥ÙŠÙˆØ§Ø¡"
         '
         'Label3
         '
@@ -234,7 +234,7 @@ Partial Class Form212
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(159, 29)
         Me.Label3.TabIndex = 36
-        Me.Label3.Text = "ÊÃßíÏ ßáãÉ ÇáãÑæÑ"
+        Me.Label3.Text = "ØªØ£ÙƒÙŠØ¯ ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ±"
         '
         'TextBox3
         '
@@ -268,7 +268,7 @@ Partial Class Form212
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(155, 29)
         Me.Label2.TabIndex = 35
-        Me.Label2.Text = "ÃÏÎá ßáãÉ ÇáãÑæÑ"
+        Me.Label2.Text = "Ø£Ø¯Ø®Ù„ ÙƒÙ„Ù…Ø© Ø§Ù„Ù…Ø±ÙˆØ±"
         '
         'Label1
         '
@@ -278,7 +278,7 @@ Partial Class Form212
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(137, 29)
         Me.Label1.TabIndex = 34
-        Me.Label1.Text = "ÇÓã ÇáãÓÊÎÏã"
+        Me.Label1.Text = "Ø§Ø³Ù… Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…"
         '
         'Button5
         '
@@ -322,7 +322,7 @@ Partial Class Form212
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(158, 43)
         Me.Button3.TabIndex = 31
-        Me.Button3.Text = "ÍĞİ ÇáãÓÊÎÏã"
+        Me.Button3.Text = "Ø­Ø°Ù Ù…Ø³ØªØ®Ø¯Ù…"
         '
         'Button2
         '
@@ -334,7 +334,7 @@ Partial Class Form212
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(158, 43)
         Me.Button2.TabIndex = 30
-        Me.Button2.Text = "ÊÚÏíá ãÓÊÎÏã"
+        Me.Button2.Text = "ØªØ¹Ø¯ÙŠÙ„ Ù…Ø³ØªØ®Ø¯Ù…"
         '
         'Button1
         '
@@ -346,7 +346,7 @@ Partial Class Form212
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(158, 43)
         Me.Button1.TabIndex = 29
-        Me.Button1.Text = "ÅÖÇİÉ ãÓÊÎÏã"
+        Me.Button1.Text = "Ø¥Ø¶Ø§ÙØ© Ù…Ø³ØªØ®Ø¯Ù…"
         '
         'GroupBox2
         '
@@ -363,7 +363,20 @@ Partial Class Form212
         Me.GroupBox2.Size = New System.Drawing.Size(171, 158)
         Me.GroupBox2.TabIndex = 38
         Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "äæÚ ÇáãÓÊÎÏã"
+        Me.GroupBox2.Text = "Ù†ÙˆØ¹ Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…"
+        '
+        'RadioButton5
+        '
+        Me.RadioButton5.AutoSize = True
+        Me.RadioButton5.Font = New System.Drawing.Font("ae_AlMothnna", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RadioButton5.Location = New System.Drawing.Point(30, 120)
+        Me.RadioButton5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.RadioButton5.Name = "RadioButton5"
+        Me.RadioButton5.Size = New System.Drawing.Size(121, 29)
+        Me.RadioButton5.TabIndex = 12
+        Me.RadioButton5.TabStop = True
+        Me.RadioButton5.Text = "Ù…ÙˆØ¸Ù Ø®Ø²ÙŠÙ†Ø©"
+        Me.RadioButton5.UseVisualStyleBackColor = True
         '
         'RadioButton4
         '
@@ -375,7 +388,7 @@ Partial Class Form212
         Me.RadioButton4.Size = New System.Drawing.Size(105, 29)
         Me.RadioButton4.TabIndex = 11
         Me.RadioButton4.TabStop = True
-        Me.RadioButton4.Text = "ãÏíÑ ÇáäÙÇã"
+        Me.RadioButton4.Text = "Ù…Ø¯ÙŠØ± Ø§Ù„Ù†Ø¸Ø§Ù…"
         Me.RadioButton4.UseVisualStyleBackColor = True
         '
         'RadioButton2
@@ -388,7 +401,7 @@ Partial Class Form212
         Me.RadioButton2.Size = New System.Drawing.Size(85, 29)
         Me.RadioButton2.TabIndex = 8
         Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "ãÍÇÓÈ"
+        Me.RadioButton2.Text = "Ù…Ø­Ø§Ø³Ø¨"
         Me.RadioButton2.UseVisualStyleBackColor = True
         '
         'RadioButton1
@@ -401,7 +414,7 @@ Partial Class Form212
         Me.RadioButton1.Size = New System.Drawing.Size(133, 29)
         Me.RadioButton1.TabIndex = 7
         Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "ãæÙİ ÇÓÊŞÈÇá"
+        Me.RadioButton1.Text = "Ù…ÙˆØ¸Ù Ø§Ø³ØªÙ‚Ø¨Ø§Ù„"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
         'RadioButton3
@@ -410,10 +423,10 @@ Partial Class Form212
         Me.RadioButton3.Location = New System.Drawing.Point(544, 13)
         Me.RadioButton3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.RadioButton3.Name = "RadioButton3"
-        Me.RadioButton3.Size = New System.Drawing.Size(117, 20)
+        Me.RadioButton3.Size = New System.Drawing.Size(115, 20)
         Me.RadioButton3.TabIndex = 9
         Me.RadioButton3.TabStop = True
-        Me.RadioButton3.Text = "ÊÍÇáíá æÕíÏáíÉ"
+        Me.RadioButton3.Text = "ÃŠÃÃ‡Ã¡Ã­Ã¡ Ã¦Ã•Ã­ÃÃ¡Ã­Ã‰"
         Me.RadioButton3.UseVisualStyleBackColor = True
         Me.RadioButton3.Visible = False
         '
@@ -422,7 +435,7 @@ Partial Class Form212
         Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(830, 349)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(16, 16)
+        Me.Label4.Size = New System.Drawing.Size(15, 16)
         Me.Label4.TabIndex = 10
         Me.Label4.Text = "0"
         '
@@ -442,23 +455,10 @@ Partial Class Form212
         Me.Label5.AutoSize = True
         Me.Label5.Location = New System.Drawing.Point(812, 349)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(50, 16)
+        Me.Label5.Size = New System.Drawing.Size(49, 16)
         Me.Label5.TabIndex = 12
         Me.Label5.Text = "Label5"
         Me.Label5.Visible = False
-        '
-        'RadioButton5
-        '
-        Me.RadioButton5.AutoSize = True
-        Me.RadioButton5.Font = New System.Drawing.Font("ae_AlMothnna", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RadioButton5.Location = New System.Drawing.Point(30, 120)
-        Me.RadioButton5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.RadioButton5.Name = "RadioButton5"
-        Me.RadioButton5.Size = New System.Drawing.Size(121, 29)
-        Me.RadioButton5.TabIndex = 12
-        Me.RadioButton5.TabStop = True
-        Me.RadioButton5.Text = "ãæÙİ ÎÒíäå"
-        Me.RadioButton5.UseVisualStyleBackColor = True
         '
         'Form212
         '
@@ -489,7 +489,7 @@ Partial Class Form212
         Me.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.RightToLeftLayout = True
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
-        Me.Text = "ÅÏÇÑÉ ÇáãÓÊÎÏãíä"
+        Me.Text = "Ø¥Ø¯Ø§Ø±Ø© Ø§Ù„Ù…Ø³ØªØ®Ø¯Ù…ÙŠÙ†"
         Me.TopMost = True
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)

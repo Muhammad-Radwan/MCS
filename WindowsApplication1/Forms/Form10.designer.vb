@@ -41,14 +41,19 @@ Partial Class Form10
         Me.APPOINTMENTVIEWBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.GroupBox9 = New System.Windows.Forms.GroupBox()
+        Me.Panel5 = New System.Windows.Forms.Panel()
+        Me.Panel10 = New System.Windows.Forms.Panel()
+        Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
+        Me.Panel9 = New System.Windows.Forms.Panel()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Panel8 = New System.Windows.Forms.Panel()
+        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
+        Me.Panel7 = New System.Windows.Forms.Panel()
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.Button10 = New System.Windows.Forms.Button()
         Me.ContextMenuStrip3 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.Button11 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
-        Me.Label7 = New System.Windows.Forms.Label()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -89,6 +94,9 @@ Partial Class Form10
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
+        Me.DateTimePicker3 = New System.Windows.Forms.DateTimePicker()
+        Me.Label25 = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Label22 = New System.Windows.Forms.Label()
@@ -98,9 +106,6 @@ Partial Class Form10
         Me.Label24 = New System.Windows.Forms.Label()
         Me.GroupBox14 = New System.Windows.Forms.GroupBox()
         Me.ComboBox5 = New System.Windows.Forms.ComboBox()
-        Me.GroupBox5 = New System.Windows.Forms.GroupBox()
-        Me.DateTimePicker3 = New System.Windows.Forms.DateTimePicker()
-        Me.Label25 = New System.Windows.Forms.Label()
         Me.GroupBox6 = New System.Windows.Forms.GroupBox()
         Me.ComboBox3 = New System.Windows.Forms.ComboBox()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -131,6 +136,10 @@ Partial Class Form10
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
+        Me.TextBox20 = New System.Windows.Forms.TextBox()
+        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
         Me.B0 = New System.Windows.Forms.Button()
         Me.B1 = New System.Windows.Forms.Button()
@@ -159,10 +168,6 @@ Partial Class Form10
         Me.B24 = New System.Windows.Forms.Button()
         Me.B25 = New System.Windows.Forms.Button()
         Me.B26 = New System.Windows.Forms.Button()
-        Me.TextBox20 = New System.Windows.Forms.TextBox()
-        Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.TextBox28 = New System.Windows.Forms.TextBox()
         Me.Button5 = New System.Windows.Forms.Button()
@@ -183,15 +188,15 @@ Partial Class Form10
         Me.APPOINTMENTVIEWBindingSource2 = New System.Windows.Forms.BindingSource(Me.components)
         Me.CLINICSQLhDataSet = New MCS.CLINICSQLhDataSet()
         Me.APPOINTMENTVIEWTableAdapter = New MCS.CLINICSQLhDataSetTableAdapters.APPOINTMENTVIEWTableAdapter()
-        Me.Panel5 = New System.Windows.Forms.Panel()
-        Me.Panel7 = New System.Windows.Forms.Panel()
-        Me.Panel8 = New System.Windows.Forms.Panel()
-        Me.Panel9 = New System.Windows.Forms.Panel()
-        Me.Panel10 = New System.Windows.Forms.Panel()
         Me.ContextMenuStrip1.SuspendLayout()
         CType(Me.APPOINTMENTVIEWBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.GroupBox9.SuspendLayout()
+        Me.Panel5.SuspendLayout()
+        Me.Panel10.SuspendLayout()
+        Me.Panel9.SuspendLayout()
+        Me.Panel8.SuspendLayout()
+        Me.Panel7.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox17.SuspendLayout()
         Me.GroupBox15.SuspendLayout()
@@ -207,10 +212,10 @@ Partial Class Form10
         CType(Me.SADADBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
+        Me.GroupBox5.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox18.SuspendLayout()
         Me.GroupBox14.SuspendLayout()
-        Me.GroupBox5.SuspendLayout()
         Me.GroupBox6.SuspendLayout()
         Me.Panel6.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -218,19 +223,14 @@ Partial Class Form10
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox7.SuspendLayout()
         Me.GroupBox8.SuspendLayout()
-        Me.FlowLayoutPanel1.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
+        Me.FlowLayoutPanel1.SuspendLayout()
         Me.Panel4.SuspendLayout()
         CType(Me.APPOINTMENTBindingSource1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.APPOINTMENTBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.APPOINTMENTBindingSource2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.APPOINTMENTVIEWBindingSource2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.CLINICSQLhDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel5.SuspendLayout()
-        Me.Panel7.SuspendLayout()
-        Me.Panel8.SuspendLayout()
-        Me.Panel9.SuspendLayout()
-        Me.Panel10.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label3
@@ -305,6 +305,109 @@ Partial Class Form10
         Me.GroupBox9.TabStop = False
         Me.GroupBox9.Text = "تاريخ الحجز"
         '
+        'Panel5
+        '
+        Me.Panel5.Controls.Add(Me.Panel10)
+        Me.Panel5.Controls.Add(Me.Panel9)
+        Me.Panel5.Controls.Add(Me.Panel8)
+        Me.Panel5.Controls.Add(Me.Panel7)
+        Me.Panel5.Location = New System.Drawing.Point(573, 47)
+        Me.Panel5.Name = "Panel5"
+        Me.Panel5.Size = New System.Drawing.Size(392, 29)
+        Me.Panel5.TabIndex = 5641
+        '
+        'Panel10
+        '
+        Me.Panel10.Controls.Add(Me.DateTimePicker2)
+        Me.Panel10.Dock = System.Windows.Forms.DockStyle.Right
+        Me.Panel10.Location = New System.Drawing.Point(0, 0)
+        Me.Panel10.Name = "Panel10"
+        Me.Panel10.Size = New System.Drawing.Size(119, 29)
+        Me.Panel10.TabIndex = 6
+        '
+        'DateTimePicker2
+        '
+        Me.DateTimePicker2.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.DateTimePicker2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.DateTimePicker2.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker2.Location = New System.Drawing.Point(0, 0)
+        Me.DateTimePicker2.Name = "DateTimePicker2"
+        Me.DateTimePicker2.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.DateTimePicker2.RightToLeftLayout = True
+        Me.DateTimePicker2.Size = New System.Drawing.Size(119, 32)
+        Me.DateTimePicker2.TabIndex = 3
+        Me.DateTimePicker2.Value = New Date(2019, 2, 15, 0, 0, 0, 0)
+        '
+        'Panel9
+        '
+        Me.Panel9.Controls.Add(Me.Label7)
+        Me.Panel9.Dock = System.Windows.Forms.DockStyle.Right
+        Me.Panel9.Location = New System.Drawing.Point(119, 0)
+        Me.Panel9.Name = "Panel9"
+        Me.Panel9.Size = New System.Drawing.Size(77, 29)
+        Me.Panel9.TabIndex = 5
+        '
+        'Label7
+        '
+        Me.Label7.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label7.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(0, 0)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(77, 29)
+        Me.Label7.TabIndex = 2
+        Me.Label7.Text = "إلى تاريخ"
+        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Panel8
+        '
+        Me.Panel8.Controls.Add(Me.DateTimePicker1)
+        Me.Panel8.Dock = System.Windows.Forms.DockStyle.Right
+        Me.Panel8.Location = New System.Drawing.Point(196, 0)
+        Me.Panel8.Name = "Panel8"
+        Me.Panel8.Size = New System.Drawing.Size(119, 29)
+        Me.Panel8.TabIndex = 4
+        '
+        'DateTimePicker1
+        '
+        Me.DateTimePicker1.AccessibleRole = System.Windows.Forms.AccessibleRole.Window
+        Me.DateTimePicker1.CalendarFont = New System.Drawing.Font("ae_AlMothnna", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker1.CalendarForeColor = System.Drawing.Color.Red
+        Me.DateTimePicker1.CalendarMonthBackground = System.Drawing.SystemColors.InactiveBorder
+        Me.DateTimePicker1.CalendarTitleForeColor = System.Drawing.Color.Red
+        Me.DateTimePicker1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.DateTimePicker1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.DateTimePicker1.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
+        Me.DateTimePicker1.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker1.Location = New System.Drawing.Point(0, 0)
+        Me.DateTimePicker1.Name = "DateTimePicker1"
+        Me.DateTimePicker1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.DateTimePicker1.RightToLeftLayout = True
+        Me.DateTimePicker1.Size = New System.Drawing.Size(119, 32)
+        Me.DateTimePicker1.TabIndex = 1
+        Me.DateTimePicker1.Value = New Date(2019, 2, 15, 0, 0, 0, 0)
+        '
+        'Panel7
+        '
+        Me.Panel7.Controls.Add(Me.Label6)
+        Me.Panel7.Dock = System.Windows.Forms.DockStyle.Right
+        Me.Panel7.Location = New System.Drawing.Point(315, 0)
+        Me.Panel7.Name = "Panel7"
+        Me.Panel7.Size = New System.Drawing.Size(77, 29)
+        Me.Panel7.TabIndex = 0
+        '
+        'Label6
+        '
+        Me.Label6.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Label6.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(0, 0)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(77, 29)
+        Me.Label6.TabIndex = 0
+        Me.Label6.Text = "من تاريخ"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'Button10
         '
         Me.Button10.BackColor = System.Drawing.Color.Transparent
@@ -374,62 +477,6 @@ Partial Class Form10
         Me.Button9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.Button9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
         Me.Button9.UseVisualStyleBackColor = False
-        '
-        'Label6
-        '
-        Me.Label6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label6.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(0, 0)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(77, 29)
-        Me.Label6.TabIndex = 0
-        Me.Label6.Text = "من تاريخ"
-        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'DateTimePicker1
-        '
-        Me.DateTimePicker1.AccessibleRole = System.Windows.Forms.AccessibleRole.Window
-        Me.DateTimePicker1.CalendarFont = New System.Drawing.Font("ae_AlMothnna", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker1.CalendarForeColor = System.Drawing.Color.Red
-        Me.DateTimePicker1.CalendarMonthBackground = System.Drawing.SystemColors.InactiveBorder
-        Me.DateTimePicker1.CalendarTitleForeColor = System.Drawing.Color.Red
-        Me.DateTimePicker1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.DateTimePicker1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DateTimePicker1.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right
-        Me.DateTimePicker1.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker1.Location = New System.Drawing.Point(0, 0)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.DateTimePicker1.RightToLeftLayout = True
-        Me.DateTimePicker1.Size = New System.Drawing.Size(119, 32)
-        Me.DateTimePicker1.TabIndex = 1
-        Me.DateTimePicker1.Value = New Date(2019, 2, 15, 0, 0, 0, 0)
-        '
-        'DateTimePicker2
-        '
-        Me.DateTimePicker2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.DateTimePicker2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DateTimePicker2.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker2.Location = New System.Drawing.Point(0, 0)
-        Me.DateTimePicker2.Name = "DateTimePicker2"
-        Me.DateTimePicker2.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.DateTimePicker2.RightToLeftLayout = True
-        Me.DateTimePicker2.Size = New System.Drawing.Size(119, 32)
-        Me.DateTimePicker2.TabIndex = 3
-        Me.DateTimePicker2.Value = New Date(2019, 2, 15, 0, 0, 0, 0)
-        '
-        'Label7
-        '
-        Me.Label7.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label7.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(0, 0)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(77, 29)
-        Me.Label7.TabIndex = 2
-        Me.Label7.Text = "إلى تاريخ"
-        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Button7
         '
@@ -1006,6 +1053,46 @@ Partial Class Form10
         Me.Panel3.Size = New System.Drawing.Size(996, 323)
         Me.Panel3.TabIndex = 3
         '
+        'GroupBox5
+        '
+        Me.GroupBox5.Controls.Add(Me.DateTimePicker3)
+        Me.GroupBox5.Controls.Add(Me.Label25)
+        Me.GroupBox5.Font = New System.Drawing.Font("Univers Next Arabic", 13.8!)
+        Me.GroupBox5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.GroupBox5.Location = New System.Drawing.Point(141, 236)
+        Me.GroupBox5.Name = "GroupBox5"
+        Me.GroupBox5.Size = New System.Drawing.Size(198, 80)
+        Me.GroupBox5.TabIndex = 17
+        Me.GroupBox5.TabStop = False
+        Me.GroupBox5.Text = "التاريخ"
+        '
+        'DateTimePicker3
+        '
+        Me.DateTimePicker3.CalendarForeColor = System.Drawing.Color.Navy
+        Me.DateTimePicker3.CalendarMonthBackground = System.Drawing.SystemColors.InactiveCaption
+        Me.DateTimePicker3.Dock = System.Windows.Forms.DockStyle.Right
+        Me.DateTimePicker3.Enabled = False
+        Me.DateTimePicker3.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.DateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
+        Me.DateTimePicker3.Location = New System.Drawing.Point(61, 38)
+        Me.DateTimePicker3.Name = "DateTimePicker3"
+        Me.DateTimePicker3.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.DateTimePicker3.RightToLeftLayout = True
+        Me.DateTimePicker3.Size = New System.Drawing.Size(134, 35)
+        Me.DateTimePicker3.TabIndex = 18
+        Me.DateTimePicker3.Value = New Date(2013, 3, 26, 16, 55, 7, 0)
+        '
+        'Label25
+        '
+        Me.Label25.Dock = System.Windows.Forms.DockStyle.Left
+        Me.Label25.Font = New System.Drawing.Font("Univers Next Arabic", 13.8!)
+        Me.Label25.ForeColor = System.Drawing.Color.Blue
+        Me.Label25.Location = New System.Drawing.Point(3, 38)
+        Me.Label25.Name = "Label25"
+        Me.Label25.Size = New System.Drawing.Size(71, 39)
+        Me.Label25.TabIndex = 20
+        Me.Label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'GroupBox3
         '
         Me.GroupBox3.Controls.Add(Me.ComboBox1)
@@ -1129,46 +1216,6 @@ Partial Class Form10
         Me.ComboBox5.Size = New System.Drawing.Size(183, 40)
         Me.ComboBox5.Sorted = True
         Me.ComboBox5.TabIndex = 1
-        '
-        'GroupBox5
-        '
-        Me.GroupBox5.Controls.Add(Me.DateTimePicker3)
-        Me.GroupBox5.Controls.Add(Me.Label25)
-        Me.GroupBox5.Font = New System.Drawing.Font("Univers Next Arabic", 13.8!)
-        Me.GroupBox5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.GroupBox5.Location = New System.Drawing.Point(141, 236)
-        Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(198, 80)
-        Me.GroupBox5.TabIndex = 17
-        Me.GroupBox5.TabStop = False
-        Me.GroupBox5.Text = "التاريخ"
-        '
-        'DateTimePicker3
-        '
-        Me.DateTimePicker3.CalendarForeColor = System.Drawing.Color.Navy
-        Me.DateTimePicker3.CalendarMonthBackground = System.Drawing.SystemColors.InactiveCaption
-        Me.DateTimePicker3.Dock = System.Windows.Forms.DockStyle.Right
-        Me.DateTimePicker3.Enabled = False
-        Me.DateTimePicker3.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.DateTimePicker3.Format = System.Windows.Forms.DateTimePickerFormat.[Short]
-        Me.DateTimePicker3.Location = New System.Drawing.Point(61, 38)
-        Me.DateTimePicker3.Name = "DateTimePicker3"
-        Me.DateTimePicker3.RightToLeft = System.Windows.Forms.RightToLeft.Yes
-        Me.DateTimePicker3.RightToLeftLayout = True
-        Me.DateTimePicker3.Size = New System.Drawing.Size(134, 35)
-        Me.DateTimePicker3.TabIndex = 18
-        Me.DateTimePicker3.Value = New Date(2013, 3, 26, 16, 55, 7, 0)
-        '
-        'Label25
-        '
-        Me.Label25.Dock = System.Windows.Forms.DockStyle.Left
-        Me.Label25.Font = New System.Drawing.Font("Univers Next Arabic", 13.8!)
-        Me.Label25.ForeColor = System.Drawing.Color.Blue
-        Me.Label25.Location = New System.Drawing.Point(3, 38)
-        Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(71, 39)
-        Me.Label25.TabIndex = 20
-        Me.Label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'GroupBox6
         '
@@ -1543,6 +1590,56 @@ Partial Class Form10
         Me.Label15.TabIndex = 62
         Me.Label15.Text = "0"
         Me.Label15.Visible = False
+        '
+        'TextBox20
+        '
+        Me.TextBox20.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.TextBox20.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox20.ForeColor = System.Drawing.Color.Navy
+        Me.TextBox20.Location = New System.Drawing.Point(-3383, 188)
+        Me.TextBox20.Name = "TextBox20"
+        Me.TextBox20.ReadOnly = True
+        Me.TextBox20.Size = New System.Drawing.Size(98, 29)
+        Me.TextBox20.TabIndex = 63
+        Me.TextBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.TextBox20.Visible = False
+        '
+        'GroupBox4
+        '
+        Me.GroupBox4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.GroupBox4.Controls.Add(Me.Label5)
+        Me.GroupBox4.Controls.Add(Me.TextBox3)
+        Me.GroupBox4.Font = New System.Drawing.Font("ae_AlMothnna", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.GroupBox4.Location = New System.Drawing.Point(-2322, 236)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Size = New System.Drawing.Size(95, 80)
+        Me.GroupBox4.TabIndex = 15
+        Me.GroupBox4.TabStop = False
+        Me.GroupBox4.Text = "رقم الحجز"
+        Me.GroupBox4.Visible = False
+        '
+        'Label5
+        '
+        Me.Label5.BackColor = System.Drawing.Color.Transparent
+        Me.Label5.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Label5.Location = New System.Drawing.Point(23, 35)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(55, 33)
+        Me.Label5.TabIndex = 56
+        Me.Label5.TextAlign = System.Drawing.ContentAlignment.TopCenter
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox3.ForeColor = System.Drawing.Color.Navy
+        Me.TextBox3.Location = New System.Drawing.Point(23, 34)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.ReadOnly = True
+        Me.TextBox3.Size = New System.Drawing.Size(10, 26)
+        Me.TextBox3.TabIndex = 51
+        Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'FlowLayoutPanel1
         '
@@ -2067,56 +2164,6 @@ Partial Class Form10
         Me.B26.UseVisualStyleBackColor = False
         Me.B26.Visible = False
         '
-        'TextBox20
-        '
-        Me.TextBox20.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox20.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox20.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox20.Location = New System.Drawing.Point(-3383, 188)
-        Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.ReadOnly = True
-        Me.TextBox20.Size = New System.Drawing.Size(98, 29)
-        Me.TextBox20.TabIndex = 63
-        Me.TextBox20.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        Me.TextBox20.Visible = False
-        '
-        'GroupBox4
-        '
-        Me.GroupBox4.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.GroupBox4.Controls.Add(Me.Label5)
-        Me.GroupBox4.Controls.Add(Me.TextBox3)
-        Me.GroupBox4.Font = New System.Drawing.Font("ae_AlMothnna", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.GroupBox4.Location = New System.Drawing.Point(-2322, 236)
-        Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(95, 80)
-        Me.GroupBox4.TabIndex = 15
-        Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "رقم الحجز"
-        Me.GroupBox4.Visible = False
-        '
-        'Label5
-        '
-        Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("Times New Roman", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(23, 35)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(55, 33)
-        Me.Label5.TabIndex = 56
-        Me.Label5.TextAlign = System.Drawing.ContentAlignment.TopCenter
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox3.Location = New System.Drawing.Point(23, 34)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.ReadOnly = True
-        Me.TextBox3.Size = New System.Drawing.Size(10, 26)
-        Me.TextBox3.TabIndex = 51
-        Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
         'Panel4
         '
         Me.Panel4.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
@@ -2351,53 +2398,6 @@ Partial Class Form10
         '
         Me.APPOINTMENTVIEWTableAdapter.ClearBeforeFill = True
         '
-        'Panel5
-        '
-        Me.Panel5.Controls.Add(Me.Panel10)
-        Me.Panel5.Controls.Add(Me.Panel9)
-        Me.Panel5.Controls.Add(Me.Panel8)
-        Me.Panel5.Controls.Add(Me.Panel7)
-        Me.Panel5.Location = New System.Drawing.Point(573, 47)
-        Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(392, 29)
-        Me.Panel5.TabIndex = 5641
-        '
-        'Panel7
-        '
-        Me.Panel7.Controls.Add(Me.Label6)
-        Me.Panel7.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel7.Location = New System.Drawing.Point(315, 0)
-        Me.Panel7.Name = "Panel7"
-        Me.Panel7.Size = New System.Drawing.Size(77, 29)
-        Me.Panel7.TabIndex = 0
-        '
-        'Panel8
-        '
-        Me.Panel8.Controls.Add(Me.DateTimePicker1)
-        Me.Panel8.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel8.Location = New System.Drawing.Point(196, 0)
-        Me.Panel8.Name = "Panel8"
-        Me.Panel8.Size = New System.Drawing.Size(119, 29)
-        Me.Panel8.TabIndex = 4
-        '
-        'Panel9
-        '
-        Me.Panel9.Controls.Add(Me.Label7)
-        Me.Panel9.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel9.Location = New System.Drawing.Point(119, 0)
-        Me.Panel9.Name = "Panel9"
-        Me.Panel9.Size = New System.Drawing.Size(77, 29)
-        Me.Panel9.TabIndex = 5
-        '
-        'Panel10
-        '
-        Me.Panel10.Controls.Add(Me.DateTimePicker2)
-        Me.Panel10.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Panel10.Location = New System.Drawing.Point(0, 0)
-        Me.Panel10.Name = "Panel10"
-        Me.Panel10.Size = New System.Drawing.Size(119, 29)
-        Me.Panel10.TabIndex = 6
-        '
         'Form10
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -2423,6 +2423,11 @@ Partial Class Form10
         CType(Me.APPOINTMENTVIEWBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.GroupBox9.ResumeLayout(False)
+        Me.Panel5.ResumeLayout(False)
+        Me.Panel10.ResumeLayout(False)
+        Me.Panel9.ResumeLayout(False)
+        Me.Panel8.ResumeLayout(False)
+        Me.Panel7.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.GroupBox17.ResumeLayout(False)
         Me.GroupBox15.ResumeLayout(False)
@@ -2444,11 +2449,11 @@ Partial Class Form10
         Me.Panel2.PerformLayout()
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
+        Me.GroupBox5.ResumeLayout(False)
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox18.ResumeLayout(False)
         Me.GroupBox18.PerformLayout()
         Me.GroupBox14.ResumeLayout(False)
-        Me.GroupBox5.ResumeLayout(False)
         Me.GroupBox6.ResumeLayout(False)
         Me.GroupBox6.PerformLayout()
         Me.Panel6.ResumeLayout(False)
@@ -2460,9 +2465,9 @@ Partial Class Form10
         Me.GroupBox7.ResumeLayout(False)
         Me.GroupBox8.ResumeLayout(False)
         Me.GroupBox8.PerformLayout()
-        Me.FlowLayoutPanel1.ResumeLayout(False)
         Me.GroupBox4.ResumeLayout(False)
         Me.GroupBox4.PerformLayout()
+        Me.FlowLayoutPanel1.ResumeLayout(False)
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()
         CType(Me.APPOINTMENTBindingSource1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -2470,11 +2475,6 @@ Partial Class Form10
         CType(Me.APPOINTMENTBindingSource2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.APPOINTMENTVIEWBindingSource2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.CLINICSQLhDataSet, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel5.ResumeLayout(False)
-        Me.Panel7.ResumeLayout(False)
-        Me.Panel8.ResumeLayout(False)
-        Me.Panel9.ResumeLayout(False)
-        Me.Panel10.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
