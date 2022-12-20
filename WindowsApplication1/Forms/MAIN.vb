@@ -702,12 +702,12 @@
     End Sub
 
     Private Sub MAIN_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        If My.Settings.CLIN = "النسخة تجريبية" Then
-            NotifyIcon1.BalloonTipText = "هذه " + My.Settings.CLIN
-        Else
-            NotifyIcon1.BalloonTipText = "هذه النسخة مرخصة ل" + My.Settings.CLIN
-        End If
-        NotifyIcon1.ShowBalloonTip(200)
+        'If My.Settings.CLIN = "النسخة تجريبية" Then
+        '    NotifyIcon1.BalloonTipText = "هذه " + My.Settings.CLIN
+        'Else
+        '    NotifyIcon1.BalloonTipText = "هذه النسخة مرخصة ل" + My.Settings.CLIN
+        'End If
+        'NotifyIcon1.ShowBalloonTip(200)
         Call Class1.CONNIC()
         Me.Text = My.Settings.CLIN
         Dim skkhO As String

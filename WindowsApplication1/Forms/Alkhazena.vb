@@ -343,7 +343,6 @@ Public Class Alkhazena
         Me.ComboBox3.Text = ""
         Me.TextBox15.Text = ""
 
-
         Dim ss As String = "select * from LOSS "
         Dim aad As New SqlClient.SqlDataAdapter(ss, cn)
         Dim dss As New DataSet
@@ -2597,7 +2596,6 @@ Public Class Alkhazena
         End If
         TextBox20.Text = Val(TextBox18.Text) - Val(TextBox19.Text)
         Call Class4.CONNIC()
-
     End Sub
 
     Private Sub ComboBox12_KeyPress(sender As Object, e As KeyPressEventArgs) Handles ComboBox12.KeyPress

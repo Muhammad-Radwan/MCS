@@ -235,7 +235,7 @@ Public Class FRMLOGIN
                 x = x + 1
                 ttt1.SetValue("val", x)
                 If x <= 500 Then
-                    MessageBox.Show("هذه النسخة تجريبية", "منظومة العيادة", MessageBoxButtons.OK, MessageBoxIcon.Information)
+                    MessageBox.Show("هذه النسخة تجريبية", "منظومة العيادة", MessageBoxButtons.OK, MessageBoxIcon.Warning)
                 ElseIf x > 500 Or x < 1000 Then
                     MessageBox.Show("النسخة التجريبية شارفت على الانتهاء , يرجى الاتصال بموزع البرنامج", "منظومة العيادة", MessageBoxButtons.OK, MessageBoxIcon.Warning)
                 Else
@@ -259,7 +259,7 @@ Public Class FRMLOGIN
         'End If
 
         If NotifyIcons = False Then
-            NotifyIcon1.BalloonTipText = "هذه النسخة غير مرخصة" + My.Settings.CLIN
+            NotifyIcon1.BalloonTipText = "هذه النسخة غير مرخصة"
         Else
             NotifyIcon1.BalloonTipText = "هذه النسخة مرخصة ل" + My.Settings.CLIN
         End If

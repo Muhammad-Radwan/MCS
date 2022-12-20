@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MCS", "WindowsApplication1\MCS.vbproj", "{DE26BCF6-F0FA-4DE7-BB71-DC15B72FA9D5}"
-EndProject
-Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "MSCSETUP", "MSCSETUP\MSCSETUP.isproj", "{5CF6F179-3231-4C7A-8EAC-7C0D57AA47AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,18 +24,11 @@ Global
 		{DE26BCF6-F0FA-4DE7-BB71-DC15B72FA9D5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DE26BCF6-F0FA-4DE7-BB71-DC15B72FA9D5}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
 		{DE26BCF6-F0FA-4DE7-BB71-DC15B72FA9D5}.SingleImage|Any CPU.Build.0 = Release|Any CPU
-		{5CF6F179-3231-4C7A-8EAC-7C0D57AA47AB}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
-		{5CF6F179-3231-4C7A-8EAC-7C0D57AA47AB}.CD_ROM|Any CPU.Build.0 = CD_ROM
-		{5CF6F179-3231-4C7A-8EAC-7C0D57AA47AB}.Debug|Any CPU.ActiveCfg = DVD-5
-		{5CF6F179-3231-4C7A-8EAC-7C0D57AA47AB}.Debug|Any CPU.Build.0 = DVD-5
-		{5CF6F179-3231-4C7A-8EAC-7C0D57AA47AB}.DVD-5|Any CPU.ActiveCfg = DVD-5
-		{5CF6F179-3231-4C7A-8EAC-7C0D57AA47AB}.DVD-5|Any CPU.Build.0 = DVD-5
-		{5CF6F179-3231-4C7A-8EAC-7C0D57AA47AB}.Release|Any CPU.ActiveCfg = SingleImage
-		{5CF6F179-3231-4C7A-8EAC-7C0D57AA47AB}.Release|Any CPU.Build.0 = SingleImage
-		{5CF6F179-3231-4C7A-8EAC-7C0D57AA47AB}.SingleImage|Any CPU.ActiveCfg = SingleImage
-		{5CF6F179-3231-4C7A-8EAC-7C0D57AA47AB}.SingleImage|Any CPU.Build.0 = SingleImage
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0108F71F-0183-4D31-9300-8093871741D1}
 	EndGlobalSection
 EndGlobal

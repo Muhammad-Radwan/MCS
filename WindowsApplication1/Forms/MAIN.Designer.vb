@@ -142,7 +142,7 @@ Partial Class MAIN
         Me.Button13.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button13.FlatAppearance.BorderSize = 4
         Me.Button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button13.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button13.Font = New System.Drawing.Font("ae_AlMothnna", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button13.ForeColor = System.Drawing.Color.White
         Me.Button13.Location = New System.Drawing.Point(4, 201)
         Me.Button13.Name = "Button13"
@@ -158,7 +158,7 @@ Partial Class MAIN
         Me.Button14.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button14.FlatAppearance.BorderSize = 4
         Me.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button14.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button14.Font = New System.Drawing.Font("ae_AlMothnna", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button14.ForeColor = System.Drawing.Color.White
         Me.Button14.Location = New System.Drawing.Point(4, 69)
         Me.Button14.Name = "Button14"
@@ -174,7 +174,7 @@ Partial Class MAIN
         Me.Button8.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button8.FlatAppearance.BorderSize = 4
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button8.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button8.Font = New System.Drawing.Font("ae_AlMothnna", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button8.ForeColor = System.Drawing.Color.White
         Me.Button8.Location = New System.Drawing.Point(4, 597)
         Me.Button8.Name = "Button8"
@@ -190,7 +190,7 @@ Partial Class MAIN
         Me.Button7.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button7.FlatAppearance.BorderSize = 4
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button7.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button7.Font = New System.Drawing.Font("ae_AlMothnna", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button7.ForeColor = System.Drawing.Color.White
         Me.Button7.Location = New System.Drawing.Point(4, 531)
         Me.Button7.Name = "Button7"
@@ -206,7 +206,7 @@ Partial Class MAIN
         Me.Button6.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button6.FlatAppearance.BorderSize = 4
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button6.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button6.Font = New System.Drawing.Font("ae_AlMothnna", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.White
         Me.Button6.Location = New System.Drawing.Point(4, 465)
         Me.Button6.Name = "Button6"
@@ -222,7 +222,7 @@ Partial Class MAIN
         Me.Button5.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button5.FlatAppearance.BorderSize = 4
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button5.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button5.Font = New System.Drawing.Font("ae_AlMothnna", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.White
         Me.Button5.Location = New System.Drawing.Point(4, 399)
         Me.Button5.Name = "Button5"
@@ -238,7 +238,7 @@ Partial Class MAIN
         Me.Button4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button4.FlatAppearance.BorderSize = 4
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button4.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Font = New System.Drawing.Font("ae_AlMothnna", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.White
         Me.Button4.Location = New System.Drawing.Point(4, 333)
         Me.Button4.Name = "Button4"
@@ -254,7 +254,7 @@ Partial Class MAIN
         Me.Button3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button3.FlatAppearance.BorderSize = 4
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.Font = New System.Drawing.Font("ae_AlMothnna", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.White
         Me.Button3.Location = New System.Drawing.Point(4, 267)
         Me.Button3.Name = "Button3"
@@ -270,7 +270,7 @@ Partial Class MAIN
         Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button2.FlatAppearance.BorderSize = 4
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button2.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.Font = New System.Drawing.Font("ae_AlMothnna", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.Location = New System.Drawing.Point(4, 135)
         Me.Button2.Name = "Button2"
@@ -286,7 +286,7 @@ Partial Class MAIN
         Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button1.FlatAppearance.BorderSize = 4
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Font = New System.Drawing.Font("ae_AlMothnna", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(4, 3)
         Me.Button1.Name = "Button1"
@@ -315,7 +315,7 @@ Partial Class MAIN
         Me.Button15.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button15.FlatAppearance.BorderSize = 4
         Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button15.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button15.Font = New System.Drawing.Font("ae_AlMothnna", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button15.ForeColor = System.Drawing.Color.White
         Me.Button15.Location = New System.Drawing.Point(8, 150)
         Me.Button15.Name = "Button15"
@@ -331,7 +331,7 @@ Partial Class MAIN
         Me.Button10.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button10.FlatAppearance.BorderSize = 4
         Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button10.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button10.Font = New System.Drawing.Font("ae_AlMothnna", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button10.ForeColor = System.Drawing.Color.White
         Me.Button10.Location = New System.Drawing.Point(8, 81)
         Me.Button10.Name = "Button10"
@@ -347,7 +347,7 @@ Partial Class MAIN
         Me.Button9.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button9.FlatAppearance.BorderSize = 4
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button9.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button9.Font = New System.Drawing.Font("ae_AlMothnna", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button9.ForeColor = System.Drawing.Color.White
         Me.Button9.Location = New System.Drawing.Point(9, 11)
         Me.Button9.Name = "Button9"
@@ -359,6 +359,7 @@ Partial Class MAIN
         'StatusStrip1
         '
         Me.StatusStrip1.BackColor = System.Drawing.SystemColors.Control
+        Me.StatusStrip1.Font = New System.Drawing.Font("ae_AlMothnna", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.StatusStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripStatusLabel1, Me.ToolStripStatusLabel2, Me.ToolStripStatusLabel3, Me.ToolStripStatusLabel4, Me.ToolStripStatusLabel5, Me.ToolStripStatusLabel6, Me.ToolStripStatusLabel7})
         Me.StatusStrip1.Location = New System.Drawing.Point(0, 697)
         Me.StatusStrip1.Name = "StatusStrip1"
@@ -369,41 +370,41 @@ Partial Class MAIN
         '
         'ToolStripStatusLabel1
         '
-        Me.ToolStripStatusLabel1.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ToolStripStatusLabel1.Font = New System.Drawing.Font("ae_AlMothnna", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ToolStripStatusLabel1.ForeColor = System.Drawing.Color.Black
         Me.ToolStripStatusLabel1.Name = "ToolStripStatusLabel1"
-        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(121, 24)
+        Me.ToolStripStatusLabel1.Size = New System.Drawing.Size(147, 24)
         Me.ToolStripStatusLabel1.Text = "اســــم المستخدم"
         '
         'ToolStripStatusLabel2
         '
         Me.ToolStripStatusLabel2.ActiveLinkColor = System.Drawing.Color.Maroon
-        Me.ToolStripStatusLabel2.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Bold)
+        Me.ToolStripStatusLabel2.Font = New System.Drawing.Font("ae_AlMothnna", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ToolStripStatusLabel2.ForeColor = System.Drawing.Color.Maroon
         Me.ToolStripStatusLabel2.Name = "ToolStripStatusLabel2"
-        Me.ToolStripStatusLabel2.Size = New System.Drawing.Size(66, 24)
+        Me.ToolStripStatusLabel2.Size = New System.Drawing.Size(54, 24)
         Me.ToolStripStatusLabel2.Text = "USER"
         '
         'ToolStripStatusLabel3
         '
-        Me.ToolStripStatusLabel3.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Bold)
+        Me.ToolStripStatusLabel3.Font = New System.Drawing.Font("ae_AlMothnna", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ToolStripStatusLabel3.ForeColor = System.Drawing.Color.Black
         Me.ToolStripStatusLabel3.Name = "ToolStripStatusLabel3"
-        Me.ToolStripStatusLabel3.Size = New System.Drawing.Size(99, 24)
+        Me.ToolStripStatusLabel3.Size = New System.Drawing.Size(88, 24)
         Me.ToolStripStatusLabel3.Text = "تاريخ الدخول"
         '
         'ToolStripStatusLabel4
         '
         Me.ToolStripStatusLabel4.ActiveLinkColor = System.Drawing.Color.Maroon
-        Me.ToolStripStatusLabel4.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Bold)
+        Me.ToolStripStatusLabel4.Font = New System.Drawing.Font("ae_AlMothnna", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ToolStripStatusLabel4.ForeColor = System.Drawing.Color.Maroon
         Me.ToolStripStatusLabel4.Name = "ToolStripStatusLabel4"
-        Me.ToolStripStatusLabel4.Size = New System.Drawing.Size(65, 24)
+        Me.ToolStripStatusLabel4.Size = New System.Drawing.Size(52, 24)
         Me.ToolStripStatusLabel4.Text = "DATE"
         '
         'ToolStripStatusLabel5
         '
-        Me.ToolStripStatusLabel5.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Bold)
+        Me.ToolStripStatusLabel5.Font = New System.Drawing.Font("ae_AlMothnna", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ToolStripStatusLabel5.Name = "ToolStripStatusLabel5"
         Me.ToolStripStatusLabel5.Size = New System.Drawing.Size(90, 24)
         Me.ToolStripStatusLabel5.Text = "وقت الدخول"
@@ -411,10 +412,10 @@ Partial Class MAIN
         'ToolStripStatusLabel6
         '
         Me.ToolStripStatusLabel6.ActiveLinkColor = System.Drawing.Color.Maroon
-        Me.ToolStripStatusLabel6.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Bold)
+        Me.ToolStripStatusLabel6.Font = New System.Drawing.Font("ae_AlMothnna", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ToolStripStatusLabel6.ForeColor = System.Drawing.Color.Maroon
         Me.ToolStripStatusLabel6.Name = "ToolStripStatusLabel6"
-        Me.ToolStripStatusLabel6.Size = New System.Drawing.Size(63, 24)
+        Me.ToolStripStatusLabel6.Size = New System.Drawing.Size(50, 24)
         Me.ToolStripStatusLabel6.Text = "TIME"
         '
         'ToolStripStatusLabel7
@@ -449,7 +450,7 @@ Partial Class MAIN
         Me.Button11.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button11.FlatAppearance.BorderSize = 4
         Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button11.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button11.Font = New System.Drawing.Font("ae_AlMothnna", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button11.ForeColor = System.Drawing.Color.FromArgb(CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button11.Location = New System.Drawing.Point(9, 80)
         Me.Button11.Name = "Button11"
@@ -465,7 +466,7 @@ Partial Class MAIN
         Me.Button12.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button12.FlatAppearance.BorderSize = 4
         Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button12.Font = New System.Drawing.Font("Times New Roman", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button12.Font = New System.Drawing.Font("ae_AlMothnna", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button12.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button12.Location = New System.Drawing.Point(9, 12)
         Me.Button12.Name = "Button12"
@@ -485,7 +486,7 @@ Partial Class MAIN
         '
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Label3.Font = New System.Drawing.Font("PT Bold Heading", 36.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(178, Byte))
+        Me.Label3.Font = New System.Drawing.Font("ae_AlMothnna", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(178, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Label3.Location = New System.Drawing.Point(0, 0)
         Me.Label3.Margin = New System.Windows.Forms.Padding(6, 0, 6, 0)
