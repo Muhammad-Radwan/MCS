@@ -181,6 +181,7 @@ Partial Class FRMLOGIN
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "FRMLOGIN"
         Me.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.RightToLeftLayout = True

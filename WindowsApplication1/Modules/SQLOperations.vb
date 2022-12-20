@@ -34,13 +34,13 @@ Public Class SQLOperations
             DA.Fill(DS, "MyTable")
             DT = DS.Tables(0)
 
-            If DT.Rows(0)(0) = DBNull.Value Then
-                RV = 0
-            Else
+            If DT.Rows.Count > 0 Then
                 RV = DT.Rows(0)(0)
+            Else
+                RV = 0
             End If
         Catch ex As Exception
-            MsgBox($"حدث خطأ أثناء عملية جلب البيانات: {ex.Message}", MsgBoxStyle.Information)
+            'MsgBox($"حدث خطأ أثناء عملية جلب البيانات: {ex.Message}", MsgBoxStyle.Information)
         End Try
         Return RV
     End Function

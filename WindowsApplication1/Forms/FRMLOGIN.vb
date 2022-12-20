@@ -191,6 +191,7 @@ Public Class FRMLOGIN
                 MessageBoxIcon.Exclamation)
             End
         End If
+        ComboBox1.Focus()
         Dim reader As New StreamReader("server.txt")
         Dim allLines As List(Of String) = New List(Of String)
         Do While Not reader.EndOfStream
