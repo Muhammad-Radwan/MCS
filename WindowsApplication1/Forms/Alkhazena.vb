@@ -6698,4 +6698,8 @@ Public Class Alkhazena
         Call Class4.CONNIC()
 
     End Sub
+
+    Private Sub LOSSBindingSource_CurrentChanged(sender As Object, e As EventArgs) Handles LOSSBindingSource.CurrentChanged
+
+    End Sub
 End Class

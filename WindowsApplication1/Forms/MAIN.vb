@@ -730,25 +730,25 @@
 
             End Try
         End If
-        Button14.Enabled = t1
+        Button14.Visible = t1
         Panel4.Visible = T15
         Me.Label3.Text = My.Settings.CLIN
-        Button1.Enabled = t2
+        Button1.Visible = t2
         If t3 = True Or t4 = True Or t5 = True Or t6 = True Or t7 = True Or t8 = True Or T9 = True Or T10 = True Then
-            Button2.Enabled = True
+            Button2.Visible = True
         Else
-            Button2.Enabled = False
+            Button2.Visible = False
         End If
-        Button4.Enabled = T11
-        Button6.Enabled = T12
+        Button4.Visible = T11
+        Button6.Visible = T12
         'إدارةالمستفيدوالجهاتToolStripMenuItem.Visible = T13
         'إدارةالعملياتToolStripMenuItem.Visible = T14
         If T11 = True Or T12 = True Or T13 = True Or T14 = True Or T15 = True Then
-            Button3.Enabled = True
-            Button5.Enabled = True
+            Button3.Visible = True
+            Button5.Visible = True
         Else
-            Button3.Enabled = False
-            Button5.Enabled = False
+            Button3.Visible = False
+            Button5.Visible = False
         End If
 
     End Sub

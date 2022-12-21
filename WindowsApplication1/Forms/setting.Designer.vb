@@ -107,7 +107,6 @@ Partial Class setting
         Me.GroupBox10 = New System.Windows.Forms.GroupBox()
         Me.ComboBox5 = New System.Windows.Forms.ComboBox()
         Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Button5 = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
@@ -121,6 +120,7 @@ Partial Class setting
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.GroupBox6 = New System.Windows.Forms.GroupBox()
         Me.ComboBox3 = New System.Windows.Forms.ComboBox()
+        Me.Button5 = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -134,6 +134,7 @@ Partial Class setting
         Me.EjraaKvBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.EjraaBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.DoctorviewBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.Button7 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.Panel8.SuspendLayout()
         Me.Panel9.SuspendLayout()
@@ -180,6 +181,7 @@ Partial Class setting
         resources.ApplyResources(Me.Panel1, "Panel1")
         Me.Panel1.BackColor = System.Drawing.Color.LightSteelBlue
         Me.Panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Panel1.Controls.Add(Me.Button7)
         Me.Panel1.Controls.Add(Me.Button6)
         Me.Panel1.Controls.Add(Me.CheckBox3)
         Me.Panel1.Controls.Add(Me.CheckBox2)
@@ -209,11 +211,10 @@ Partial Class setting
         '
         'Button6
         '
-        Me.Button6.BackColor = System.Drawing.Color.MidnightBlue
         resources.ApplyResources(Me.Button6, "Button6")
+        Me.Button6.BackColor = System.Drawing.Color.MidnightBlue
         Me.Button6.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Button6.FlatAppearance.BorderSize = 6
+        Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.White
         Me.Button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red
         Me.Button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button6.ForeColor = System.Drawing.Color.White
@@ -810,19 +811,6 @@ Partial Class setting
         Me.Panel2.Controls.Add(Me.Button5)
         Me.Panel2.Name = "Panel2"
         '
-        'Button5
-        '
-        Me.Button5.BackColor = System.Drawing.Color.MidnightBlue
-        resources.ApplyResources(Me.Button5, "Button5")
-        Me.Button5.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Button5.FlatAppearance.BorderSize = 6
-        Me.Button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red
-        Me.Button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
-        Me.Button5.ForeColor = System.Drawing.Color.White
-        Me.Button5.Name = "Button5"
-        Me.Button5.UseVisualStyleBackColor = False
-        '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.MidnightBlue
@@ -955,6 +943,19 @@ Partial Class setting
         Me.ComboBox3.Name = "ComboBox3"
         Me.ComboBox3.Sorted = True
         '
+        'Button5
+        '
+        Me.Button5.BackColor = System.Drawing.Color.MidnightBlue
+        resources.ApplyResources(Me.Button5, "Button5")
+        Me.Button5.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(0, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Button5.FlatAppearance.BorderSize = 6
+        Me.Button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red
+        Me.Button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button5.ForeColor = System.Drawing.Color.White
+        Me.Button5.Name = "Button5"
+        Me.Button5.UseVisualStyleBackColor = False
+        '
         'Label5
         '
         resources.ApplyResources(Me.Label5, "Label5")
@@ -1024,6 +1025,18 @@ Partial Class setting
         'DoctorviewBindingSource
         '
         Me.DoctorviewBindingSource.DataMember = "Doctor_view"
+        '
+        'Button7
+        '
+        resources.ApplyResources(Me.Button7, "Button7")
+        Me.Button7.BackColor = System.Drawing.Color.MidnightBlue
+        Me.Button7.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.Button7.FlatAppearance.BorderColor = System.Drawing.Color.White
+        Me.Button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red
+        Me.Button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
+        Me.Button7.ForeColor = System.Drawing.Color.White
+        Me.Button7.Name = "Button7"
+        Me.Button7.UseVisualStyleBackColor = False
         '
         'setting
         '
@@ -1204,4 +1217,5 @@ Partial Class setting
     Friend WithEvents DataGridViewTextBoxColumn2 As DataGridViewTextBoxColumn
     Friend WithEvents Ejraa As DataGridViewTextBoxColumn
     Friend WithEvents Kema As DataGridViewTextBoxColumn
+    Friend WithEvents Button7 As Button
 End Class
