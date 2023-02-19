@@ -3,7 +3,7 @@ Imports System.Data
 Imports System.Data.SqlClient
 Imports System.IO
 
-Public Class FRMLOGIN
+Public Class FrmLogin
     Private Function AlreadyRunning() As Boolean
         Dim my_proc As Process = Process.GetCurrentProcess
         Dim my_name As String = my_proc.ProcessName
@@ -82,16 +82,16 @@ Public Class FRMLOGIN
                         'Dim f As New EYWAA
                         'Call Class4.CONNIC()
                         'f.ShowDialog()
-                        Dim fb As New backup
+                        Dim fb As New FrmBackup
                         fb.ShowDialog()
                     ElseIf t1 = False And t2 = True And t3 = False And t4 = False And t5 = False And t6 = False And t7 = False And t8 = False And T9 = False And T10 = False Then
-                        Dim f As New Form10
+                        Dim f As New FrmReception
                         Call Class4.CONNIC()
                         f.ShowDialog()
-                        Dim fb As New backup
+                        Dim fb As New FrmBackup
                         fb.ShowDialog()
                     ElseIf t1 = True And t2 = True Then
-                        Dim f As New MAIN
+                        Dim f As New FrmMain
                         Call Class4.CONNIC()
                         f.ShowDialog()
                         'ElseIf t1 = True And t2 = True Then
@@ -100,13 +100,13 @@ Public Class FRMLOGIN
                         '    f.ShowDialog()
                         'End If
                     ElseIf t3 = True Or t4 = True Or t5 = True Or t6 = True Or t7 = True Or t8 = True Or T9 = True Or T10 = True AndAlso t1 = False And t2 = False Then
-                        Dim f As New Alkhazena
+                        Dim f As New FrmTreasuryReport
                         Call Class4.CONNIC()
                         f.ShowDialog()
-                        Dim fb As New backup
+                        Dim fb As New FrmBackup
                         fb.ShowDialog()
                     Else
-                        Dim f As New MAIN
+                        Dim f As New FrmMain
                         Call Class4.CONNIC()
                         f.ShowDialog()
                     End If
@@ -150,7 +150,7 @@ Public Class FRMLOGIN
                         poss = TextBox1.Text
                         Me.Hide()
                         rd.Close()
-                        Dim f As New MAIN
+                        Dim f As New FrmMain
                         f.ShowDialog()
                     End If
 
@@ -176,7 +176,7 @@ Public Class FRMLOGIN
     End Sub
 
     Private Sub FRMLOGIN_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
-        Dim fb As New backup
+        Dim fb As New FrmBackup
         Me.Hide()
         fb.ShowDialog()
         End
@@ -321,7 +321,7 @@ Public Class FRMLOGIN
         ComboBox1.ValueMember = "user_pass"
         ComboBox1.SelectedIndex = -1
         If ComboBox1.Items.Count = 0 Then
-            Dim f As New Form212
+            Dim f As New FrmUserManagement
             Me.Hide()
             f.ShowDialog()
         End If
@@ -391,16 +391,16 @@ Public Class FRMLOGIN
                     ''Dim f As New EYWAA
                     'Call Class4.CONNIC()
                     'f.ShowDialog()
-                    Dim fb As New backup
+                    Dim fb As New FrmBackup
                     fb.ShowDialog()
                 ElseIf t1 = False And t2 = True And t3 = False And t4 = False And t5 = False And t6 = False And t7 = False And t8 = False And T9 = False And T10 = False Then
-                    Dim f As New Form10
+                    Dim f As New FrmReception
                     Call Class4.CONNIC()
                     f.ShowDialog()
-                    Dim fb As New backup
+                    Dim fb As New FrmBackup
                     fb.ShowDialog()
                 ElseIf t1 = True And t2 = True Then
-                    Dim f As New MAIN
+                    Dim f As New FrmMain
                     Call Class4.CONNIC()
                     f.ShowDialog()
                     'ElseIf t1 = True And t2 = True Then
@@ -409,13 +409,13 @@ Public Class FRMLOGIN
                     '    f.ShowDialog()
                     'End If
                 ElseIf t3 = True Or t4 = True Or t5 = True Or t6 = True Or t7 = True Or t8 = True Or T9 = True Or T10 = True AndAlso t1 = False And t2 = False Then
-                    Dim f As New Alkhazena
+                    Dim f As New FrmTreasuryReport
                     Call Class4.CONNIC()
                     f.ShowDialog()
-                    Dim fb As New backup
+                    Dim fb As New FrmBackup
                     fb.ShowDialog()
                 Else
-                    Dim f As New MAIN
+                    Dim f As New FrmMain
                     Call Class4.CONNIC()
                     f.ShowDialog()
                 End If

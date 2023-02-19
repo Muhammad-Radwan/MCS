@@ -126,70 +126,70 @@
     <Import Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Forms\Activation.Designer.vb">
-      <DependentUpon>Activation.vb</DependentUpon>
+    <Compile Include="Forms\FrmActivation.Designer.vb">
+      <DependentUpon>FrmActivation.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Activation.vb">
+    <Compile Include="Forms\FrmActivation.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Alkhazena.Designer.vb">
-      <DependentUpon>Alkhazena.vb</DependentUpon>
+    <Compile Include="Forms\FrmTreasuryReport.Designer.vb">
+      <DependentUpon>FrmTreasuryReport.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Alkhazena.vb">
+    <Compile Include="Forms\FrmTreasuryReport.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\AMALEATvb.Designer.vb">
-      <DependentUpon>AMALEATvb.vb</DependentUpon>
+    <Compile Include="Forms\FrmSurgery.Designer.vb">
+      <DependentUpon>FrmSurgery.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\AMALEATvb.vb">
+    <Compile Include="Forms\FrmSurgery.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\backup.designer.vb">
-      <DependentUpon>backup.vb</DependentUpon>
+    <Compile Include="Forms\FrmBackup.designer.vb">
+      <DependentUpon>FrmBackup.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\backup.vb">
+    <Compile Include="Forms\FrmBackup.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\BackupandRestore.Designer.vb">
-      <DependentUpon>BackupandRestore.vb</DependentUpon>
+    <Compile Include="Forms\FrmBackupRestore.Designer.vb">
+      <DependentUpon>FrmBackupRestore.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\BackupandRestore.vb">
+    <Compile Include="Forms\FrmBackupRestore.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ByDate.designer.vb">
-      <DependentUpon>ByDate.vb</DependentUpon>
+    <Compile Include="Forms\FrmDateSelector1.designer.vb">
+      <DependentUpon>FrmDateSelector1.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\ByDate.vb">
+    <Compile Include="Forms\FrmDateSelector1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ByDate1.designer.vb">
-      <DependentUpon>ByDate1.vb</DependentUpon>
+    <Compile Include="Forms\FrmDateSelector2.designer.vb">
+      <DependentUpon>FrmDateSelector2.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\ByDate1.vb">
+    <Compile Include="Forms\FrmDateSelector2.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ByDate2.Designer.vb">
-      <DependentUpon>ByDate2.vb</DependentUpon>
+    <Compile Include="Forms\FrmDateSelector3.Designer.vb">
+      <DependentUpon>FrmDateSelector3.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\ByDate2.vb">
+    <Compile Include="Forms\FrmDateSelector3.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\EYWAA.Designer.vb">
-      <DependentUpon>EYWAA.vb</DependentUpon>
+    <Compile Include="Forms\FrmLodging.Designer.vb">
+      <DependentUpon>FrmLodging.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\EYWAA.vb">
+    <Compile Include="Forms\FrmLodging.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Madenon.designer.vb">
-      <DependentUpon>Madenon.vb</DependentUpon>
+    <Compile Include="Forms\FrmMadenoon.designer.vb">
+      <DependentUpon>FrmMadenoon.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Madenon.vb">
+    <Compile Include="Forms\FrmMadenoon.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\MAIN.Designer.vb">
-      <DependentUpon>MAIN.vb</DependentUpon>
+    <Compile Include="Forms\FrmMain.Designer.vb">
+      <DependentUpon>FrmMain.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\MAIN.vb">
+    <Compile Include="Forms\FrmMain.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Modules\Class1.vb" />
@@ -373,16 +373,16 @@
     <Compile Include="Reports\CrystalReport9.vb">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Forms\Discount.designer.vb">
-      <DependentUpon>Discount.vb</DependentUpon>
+    <Compile Include="Forms\FrmDiscount.designer.vb">
+      <DependentUpon>FrmDiscount.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Discount.vb">
+    <Compile Include="Forms\FrmDiscount.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\EDARA.designer.vb">
-      <DependentUpon>EDARA.vb</DependentUpon>
+    <Compile Include="Forms\FrmManagement.designer.vb">
+      <DependentUpon>FrmManagement.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\EDARA.vb">
+    <Compile Include="Forms\FrmManagement.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Reports\Esalmaly.vb">
@@ -403,28 +403,28 @@
       <DependentUpon>Eyradat.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Forms\Form16.designer.vb">
-      <DependentUpon>Form16.vb</DependentUpon>
+    <Compile Include="Forms\FrmExpenses.designer.vb">
+      <DependentUpon>FrmExpenses.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form16.vb">
+    <Compile Include="Forms\FrmExpenses.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form2.Designer.vb">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <Compile Include="Forms\FrmPatientProfile.Designer.vb">
+      <DependentUpon>FrmPatientProfile.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form2.vb">
+    <Compile Include="Forms\FrmPatientProfile.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form60.Designer.vb">
-      <DependentUpon>Form60.vb</DependentUpon>
+    <Compile Include="Forms\FrmSanadReportViewer.Designer.vb">
+      <DependentUpon>FrmSanadReportViewer.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form60.vb">
+    <Compile Include="Forms\FrmSanadReportViewer.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form61.Designer.vb">
-      <DependentUpon>Form61.vb</DependentUpon>
+    <Compile Include="Forms\FrmDischargeReport.Designer.vb">
+      <DependentUpon>FrmDischargeReport.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form61.vb">
+    <Compile Include="Forms\FrmDischargeReport.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Reports\kholasareport.vb">
@@ -458,10 +458,10 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Modules\Module2.vb" />
-    <Compile Include="Forms\MOLAKHAS.Designer.vb">
-      <DependentUpon>MOLAKHAS.vb</DependentUpon>
+    <Compile Include="Forms\FrmSummeryReportViewer.Designer.vb">
+      <DependentUpon>FrmSummeryReportViewer.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\MOLAKHAS.vb">
+    <Compile Include="Forms\FrmSummeryReportViewer.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Reports\Print12.vb">
@@ -470,40 +470,40 @@
       <DependentUpon>Print1.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Forms\sanad.designer.vb">
-      <DependentUpon>sanad.vb</DependentUpon>
+    <Compile Include="Forms\FrmSanad.designer.vb">
+      <DependentUpon>FrmSanad.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\sanad.vb">
+    <Compile Include="Forms\FrmSanad.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\SEARCH.designer.vb">
-      <DependentUpon>SEARCH.vb</DependentUpon>
+    <Compile Include="Forms\FrmSearch.designer.vb">
+      <DependentUpon>FrmSearch.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\SEARCH.vb">
+    <Compile Include="Forms\FrmSearch.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\SittingPrinters.Designer.vb">
-      <DependentUpon>SittingPrinters.vb</DependentUpon>
+    <Compile Include="Forms\FrmPrinterSettings.Designer.vb">
+      <DependentUpon>FrmPrinterSettings.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\SittingPrinters.vb">
+    <Compile Include="Forms\FrmPrinterSettings.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\TADEELDN.Designer.vb">
-      <DependentUpon>TADEELDN.vb</DependentUpon>
+    <Compile Include="Forms\FrmDoctorEdit.Designer.vb">
+      <DependentUpon>FrmDoctorEdit.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\TADEELDN.vb">
+    <Compile Include="Forms\FrmDoctorEdit.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\TADEELM.Designer.vb">
-      <DependentUpon>TADEELM.vb</DependentUpon>
+    <Compile Include="Forms\FrmMostafeedEdit.Designer.vb">
+      <DependentUpon>FrmMostafeedEdit.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\TADEELM.vb">
+    <Compile Include="Forms\FrmMostafeedEdit.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\TADEELvb.Designer.vb">
-      <DependentUpon>TADEELvb.vb</DependentUpon>
+    <Compile Include="Forms\FrmDepartmentEdit.Designer.vb">
+      <DependentUpon>FrmDepartmentEdit.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\TADEELvb.vb">
+    <Compile Include="Forms\FrmDepartmentEdit.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Modules\TXTEMLA.vb" />
@@ -519,35 +519,35 @@
       <DependentUpon>VIEW2.rpt</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
-    <EmbeddedResource Include="Forms\Activation.resx">
-      <DependentUpon>Activation.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmActivation.resx">
+      <DependentUpon>FrmActivation.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\AMALEATvb.resx">
-      <DependentUpon>AMALEATvb.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmSurgery.resx">
+      <DependentUpon>FrmSurgery.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\backup.resx">
-      <DependentUpon>backup.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmBackup.resx">
+      <DependentUpon>FrmBackup.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\BackupandRestore.resx">
-      <DependentUpon>BackupandRestore.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmBackupRestore.resx">
+      <DependentUpon>FrmBackupRestore.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ByDate.resx">
-      <DependentUpon>ByDate.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmDateSelector1.resx">
+      <DependentUpon>FrmDateSelector1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ByDate1.resx">
-      <DependentUpon>ByDate1.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmDateSelector2.resx">
+      <DependentUpon>FrmDateSelector2.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ByDate2.resx">
-      <DependentUpon>ByDate2.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmDateSelector3.resx">
+      <DependentUpon>FrmDateSelector3.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\EYWAA.resx">
-      <DependentUpon>EYWAA.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmLodging.resx">
+      <DependentUpon>FrmLodging.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Madenon.resx">
-      <DependentUpon>Madenon.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmMadenoon.resx">
+      <DependentUpon>FrmMadenoon.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\MAIN.resx">
-      <DependentUpon>MAIN.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmMain.resx">
+      <DependentUpon>FrmMain.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\CrystalReport102.vb">
       <SubType>Component</SubType>
@@ -620,401 +620,383 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>CrystalReport37.rpt</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Ejraa.Designer.vb">
-      <DependentUpon>Ejraa.vb</DependentUpon>
+    <Compile Include="Forms\FrmProcedure.Designer.vb">
+      <DependentUpon>FrmProcedure.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Ejraa.vb">
+    <Compile Include="Forms\FrmProcedure.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ESALHAJEZ.Designer.vb">
-      <DependentUpon>ESALHAJEZ.vb</DependentUpon>
+    <Compile Include="Forms\FrmReceiptReport.Designer.vb">
+      <DependentUpon>FrmReceiptReport.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\ESALHAJEZ.vb">
+    <Compile Include="Forms\FrmReceiptReport.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form1.Designer.vb">
+    <Compile Include="LabForms\Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form1.vb">
+    <Compile Include="LabForms\Form1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form10.designer.vb">
-      <DependentUpon>Form10.vb</DependentUpon>
+    <Compile Include="Forms\FrmReception.designer.vb">
+      <DependentUpon>FrmReception.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form10.vb">
+    <Compile Include="Forms\FrmReception.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form11.Designer.vb">
-      <DependentUpon>Form11.vb</DependentUpon>
+    <Compile Include="Forms\FrmPatientInfoPrint.Designer.vb">
+      <DependentUpon>FrmPatientInfoPrint.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form11.vb">
+    <Compile Include="Forms\FrmPatientInfoPrint.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form12.Designer.vb">
-      <DependentUpon>Form12.vb</DependentUpon>
+    <Compile Include="Forms\FrmReportViewer.Designer.vb">
+      <DependentUpon>FrmReportViewer.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form12.vb">
+    <Compile Include="Forms\FrmReportViewer.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form13.Designer.vb">
-      <DependentUpon>Form13.vb</DependentUpon>
+    <Compile Include="Forms\FrmReportDateSelector.Designer.vb">
+      <DependentUpon>FrmReportDateSelector.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form13.vb">
+    <Compile Include="Forms\FrmReportDateSelector.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form14.Designer.vb">
-      <DependentUpon>Form14.vb</DependentUpon>
+    <Compile Include="Forms\FrmDoctorReport.Designer.vb">
+      <DependentUpon>FrmDoctorReport.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form14.vb">
+    <Compile Include="Forms\FrmDoctorReport.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form15.Designer.vb">
-      <DependentUpon>Form15.vb</DependentUpon>
+    <Compile Include="Forms\FrmDoctorReportViewer.Designer.vb">
+      <DependentUpon>FrmDoctorReportViewer.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form15.vb">
+    <Compile Include="Forms\FrmDoctorReportViewer.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form1622.Designer.vb">
-      <DependentUpon>Form1622.vb</DependentUpon>
+    <Compile Include="Forms\FrmReportByCity.Designer.vb">
+      <DependentUpon>FrmReportByCity.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form1622.vb">
+    <Compile Include="Forms\FrmReportByCity.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form17.Designer.vb">
-      <DependentUpon>Form17.vb</DependentUpon>
+    <Compile Include="Forms\FrmReportBySex.Designer.vb">
+      <DependentUpon>FrmReportBySex.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form17.vb">
+    <Compile Include="Forms\FrmReportBySex.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form18.Designer.vb">
-      <DependentUpon>Form18.vb</DependentUpon>
+    <Compile Include="Forms\FrmReportByCityViewer.Designer.vb">
+      <DependentUpon>FrmReportByCityViewer.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form18.vb">
+    <Compile Include="Forms\FrmReportByCityViewer.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form19.Designer.vb">
-      <DependentUpon>Form19.vb</DependentUpon>
+    <Compile Include="Forms\FrmReportBySexViewer.Designer.vb">
+      <DependentUpon>FrmReportBySexViewer.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form19.vb">
+    <Compile Include="Forms\FrmReportBySexViewer.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form20.Designer.vb">
-      <DependentUpon>Form20.vb</DependentUpon>
+    <Compile Include="Forms\FrmResultViewer.Designer.vb">
+      <DependentUpon>FrmResultViewer.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form20.vb">
+    <Compile Include="Forms\FrmResultViewer.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form21.Designer.vb">
-      <DependentUpon>Form21.vb</DependentUpon>
+    <Compile Include="Forms\FrmUserManagement.Designer.vb">
+      <DependentUpon>FrmUserManagement.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form21.vb">
+    <Compile Include="Forms\FrmUserManagement.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form212.Designer.vb">
-      <DependentUpon>Form212.vb</DependentUpon>
+    <Compile Include="LabForms\FrmPatientDocs.Designer.vb">
+      <DependentUpon>FrmPatientDocs.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form212.vb">
+    <Compile Include="LabForms\FrmPatientDocs.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form22.Designer.vb">
-      <DependentUpon>Form22.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Form22.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Form23.Designer.vb">
+    <Compile Include="LabForms\Form23.Designer.vb">
       <DependentUpon>Form23.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form23.vb">
+    <Compile Include="LabForms\Form23.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form24.Designer.vb">
-      <DependentUpon>Form24.vb</DependentUpon>
+    <Compile Include="LabForms\FrmGeneralLab.Designer.vb">
+      <DependentUpon>FrmGeneralLab.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form24.vb">
+    <Compile Include="LabForms\FrmGeneralLab.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form25.Designer.vb">
-      <DependentUpon>Form25.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Form25.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Form26.designer.vb">
+    <Compile Include="LabForms\Form26.designer.vb">
       <DependentUpon>Form26.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form26.vb">
+    <Compile Include="LabForms\Form26.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form27.Designer.vb">
-      <DependentUpon>Form27.vb</DependentUpon>
+    <Compile Include="LabForms\FrmHormonalAssay.Designer.vb">
+      <DependentUpon>FrmHormonalAssay.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form27.vb">
+    <Compile Include="LabForms\FrmHormonalAssay.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form28.Designer.vb">
-      <DependentUpon>Form28.vb</DependentUpon>
+    <Compile Include="LabForms\FrmTiriod.Designer.vb">
+      <DependentUpon>FrmTiriod.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form28.vb">
+    <Compile Include="LabForms\FrmTiriod.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form29.Designer.vb">
-      <DependentUpon>Form29.vb</DependentUpon>
+    <Compile Include="LabForms\FrmTorch.Designer.vb">
+      <DependentUpon>FrmTorch.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form29.vb">
+    <Compile Include="LabForms\FrmTorch.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form3.Designer.vb">
-      <DependentUpon>Form3.vb</DependentUpon>
+    <Compile Include="LabForms\FrmModifyData.Designer.vb">
+      <DependentUpon>FrmModifyData.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form3.vb">
+    <Compile Include="LabForms\FrmModifyData.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form30.Designer.vb">
-      <DependentUpon>Form30.vb</DependentUpon>
+    <Compile Include="LabForms\FrmCBC.Designer.vb">
+      <DependentUpon>FrmCBC.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form30.vb">
+    <Compile Include="LabForms\FrmCBC.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form31.Designer.vb">
-      <DependentUpon>Form31.vb</DependentUpon>
+    <Compile Include="LabForms\FrmProthonbin.Designer.vb">
+      <DependentUpon>FrmProthonbin.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form31.vb">
+    <Compile Include="LabForms\FrmProthonbin.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form32.Designer.vb">
-      <DependentUpon>Form32.vb</DependentUpon>
+    <Compile Include="LabForms\FrmLFT.Designer.vb">
+      <DependentUpon>FrmLFT.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form32.vb">
+    <Compile Include="LabForms\FrmLFT.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form33.Designer.vb">
-      <DependentUpon>Form33.vb</DependentUpon>
+    <Compile Include="LabForms\FrmRFT.Designer.vb">
+      <DependentUpon>FrmRFT.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form33.vb">
+    <Compile Include="LabForms\FrmRFT.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form34.Designer.vb">
-      <DependentUpon>Form34.vb</DependentUpon>
+    <Compile Include="LabForms\FrmBioChem.Designer.vb">
+      <DependentUpon>FrmBioChem.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form34.vb">
+    <Compile Include="LabForms\FrmBioChem.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form35.Designer.vb">
-      <DependentUpon>Form35.vb</DependentUpon>
+    <Compile Include="LabForms\FrmElectrolytes.Designer.vb">
+      <DependentUpon>FrmElectrolytes.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form35.vb">
+    <Compile Include="LabForms\FrmElectrolytes.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form36.Designer.vb">
-      <DependentUpon>Form36.vb</DependentUpon>
+    <Compile Include="LabForms\FrmUrine.Designer.vb">
+      <DependentUpon>FrmUrine.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form36.vb">
+    <Compile Include="LabForms\FrmUrine.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form37.Designer.vb">
-      <DependentUpon>Form37.vb</DependentUpon>
+    <Compile Include="LabForms\FrmSemen.Designer.vb">
+      <DependentUpon>FrmSemen.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form37.vb">
+    <Compile Include="LabForms\FrmSemen.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form38.Designer.vb">
-      <DependentUpon>Form38.vb</DependentUpon>
+    <Compile Include="LabForms\FrmWidal.Designer.vb">
+      <DependentUpon>FrmWidal.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form38.vb">
+    <Compile Include="LabForms\FrmWidal.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form39.Designer.vb">
-      <DependentUpon>Form39.vb</DependentUpon>
+    <Compile Include="LabForms\FrmVirology.Designer.vb">
+      <DependentUpon>FrmVirology.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form39.vb">
+    <Compile Include="LabForms\FrmVirology.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form4.Designer.vb">
-      <DependentUpon>Form4.vb</DependentUpon>
+    <Compile Include="LabForms\FrmPrintProfile.Designer.vb">
+      <DependentUpon>FrmPrintProfile.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form4.vb">
+    <Compile Include="LabForms\FrmPrintProfile.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form40.Designer.vb">
-      <DependentUpon>Form40.vb</DependentUpon>
+    <Compile Include="LabForms\FrmSerology.Designer.vb">
+      <DependentUpon>FrmSerology.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form40.vb">
+    <Compile Include="LabForms\FrmSerology.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form41.Designer.vb">
-      <DependentUpon>Form41.vb</DependentUpon>
+    <Compile Include="LabForms\FrmEIA.Designer.vb">
+      <DependentUpon>FrmEIA.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form41.vb">
+    <Compile Include="LabForms\FrmEIA.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form42.Designer.vb">
-      <DependentUpon>Form42.vb</DependentUpon>
+    <Compile Include="LabForms\FrmLabReportViewer15.Designer.vb">
+      <DependentUpon>FrmLabReportViewer15.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form42.vb">
+    <Compile Include="LabForms\FrmLabReportViewer15.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form43.Designer.vb">
-      <DependentUpon>Form43.vb</DependentUpon>
+    <Compile Include="LabForms\FrmLabReportViewer14.Designer.vb">
+      <DependentUpon>FrmLabReportViewer14.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form43.vb">
+    <Compile Include="LabForms\FrmLabReportViewer14.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form44.Designer.vb">
-      <DependentUpon>Form44.vb</DependentUpon>
+    <Compile Include="LabForms\FrmLabReportViewer13.Designer.vb">
+      <DependentUpon>FrmLabReportViewer13.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form44.vb">
+    <Compile Include="LabForms\FrmLabReportViewer13.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form45.Designer.vb">
-      <DependentUpon>Form45.vb</DependentUpon>
+    <Compile Include="LabForms\FrmLabReportViewer12.Designer.vb">
+      <DependentUpon>FrmLabReportViewer12.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form45.vb">
+    <Compile Include="LabForms\FrmLabReportViewer12.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form46.Designer.vb">
-      <DependentUpon>Form46.vb</DependentUpon>
+    <Compile Include="LabForms\FrmLabReportViewer11.Designer.vb">
+      <DependentUpon>FrmLabReportViewer11.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form46.vb">
+    <Compile Include="LabForms\FrmLabReportViewer11.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form47.Designer.vb">
-      <DependentUpon>Form47.vb</DependentUpon>
+    <Compile Include="LabForms\FrmLabReportViewer10.Designer.vb">
+      <DependentUpon>FrmLabReportViewer10.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form47.vb">
+    <Compile Include="LabForms\FrmLabReportViewer10.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form48.Designer.vb">
-      <DependentUpon>Form48.vb</DependentUpon>
+    <Compile Include="LabForms\FrmLabReportViewer9.Designer.vb">
+      <DependentUpon>FrmLabReportViewer9.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form48.vb">
+    <Compile Include="LabForms\FrmLabReportViewer9.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form49.Designer.vb">
-      <DependentUpon>Form49.vb</DependentUpon>
+    <Compile Include="LabForms\FrmLabReportViewer8.Designer.vb">
+      <DependentUpon>FrmLabReportViewer8.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form49.vb">
+    <Compile Include="LabForms\FrmLabReportViewer8.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form5.Designer.vb">
-      <DependentUpon>Form5.vb</DependentUpon>
+    <Compile Include="LabForms\FrmLabSearch.Designer.vb">
+      <DependentUpon>FrmLabSearch.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form5.vb">
+    <Compile Include="LabForms\FrmLabSearch.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form50.Designer.vb">
-      <DependentUpon>Form50.vb</DependentUpon>
+    <Compile Include="LabForms\FrmLabReportViewer7.Designer.vb">
+      <DependentUpon>FrmLabReportViewer7.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form50.vb">
+    <Compile Include="LabForms\FrmLabReportViewer7.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form51.Designer.vb">
-      <DependentUpon>Form51.vb</DependentUpon>
+    <Compile Include="LabForms\FrmLabReportViewer6.Designer.vb">
+      <DependentUpon>FrmLabReportViewer6.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form51.vb">
+    <Compile Include="LabForms\FrmLabReportViewer6.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form52.Designer.vb">
-      <DependentUpon>Form52.vb</DependentUpon>
+    <Compile Include="LabForms\FrmLabReportViewer5.Designer.vb">
+      <DependentUpon>FrmLabReportViewer5.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form52.vb">
+    <Compile Include="LabForms\FrmLabReportViewer5.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form53.Designer.vb">
-      <DependentUpon>Form53.vb</DependentUpon>
+    <Compile Include="LabForms\FrmLabReportViewer4.Designer.vb">
+      <DependentUpon>FrmLabReportViewer4.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form53.vb">
+    <Compile Include="LabForms\FrmLabReportViewer4.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form54.Designer.vb">
-      <DependentUpon>Form54.vb</DependentUpon>
+    <Compile Include="LabForms\FrmLabReportViewer3.Designer.vb">
+      <DependentUpon>FrmLabReportViewer3.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form54.vb">
+    <Compile Include="LabForms\FrmLabReportViewer3.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form55.Designer.vb">
-      <DependentUpon>Form55.vb</DependentUpon>
+    <Compile Include="LabForms\FrmLabReportViewer2.Designer.vb">
+      <DependentUpon>FrmLabReportViewer2.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form55.vb">
+    <Compile Include="LabForms\FrmLabReportViewer2.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form56.Designer.vb">
-      <DependentUpon>Form56.vb</DependentUpon>
+    <Compile Include="LabForms\FrmLabReportViewer1.Designer.vb">
+      <DependentUpon>FrmLabReportViewer1.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form56.vb">
+    <Compile Include="LabForms\FrmLabReportViewer1.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form57.Designer.vb">
-      <DependentUpon>Form57.vb</DependentUpon>
+    <Compile Include="LabForms\FrmStatementViewer.Designer.vb">
+      <DependentUpon>FrmStatementViewer.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form57.vb">
+    <Compile Include="LabForms\FrmStatementViewer.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form58.Designer.vb">
-      <DependentUpon>Form58.vb</DependentUpon>
+    <Compile Include="LabForms\FrmDoctorPaymentsReport.Designer.vb">
+      <DependentUpon>FrmDoctorPaymentsReport.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form58.vb">
+    <Compile Include="LabForms\FrmDoctorPaymentsReport.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form59.Designer.vb">
-      <DependentUpon>Form59.vb</DependentUpon>
+    <Compile Include="LabForms\FrmDelete.Designer.vb">
+      <DependentUpon>FrmDelete.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form59.vb">
+    <Compile Include="LabForms\FrmDelete.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form6.Designer.vb">
-      <DependentUpon>Form6.vb</DependentUpon>
+    <Compile Include="LabForms\FrmSearchByDate.Designer.vb">
+      <DependentUpon>FrmSearchByDate.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form6.vb">
+    <Compile Include="LabForms\FrmSearchByDate.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form7.Designer.vb">
-      <DependentUpon>Form7.vb</DependentUpon>
+    <Compile Include="Forms\FrmLab.Designer.vb">
+      <DependentUpon>FrmLab.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form7.vb">
+    <Compile Include="Forms\FrmLab.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form8.Designer.vb">
-      <DependentUpon>Form8.vb</DependentUpon>
+    <Compile Include="Forms\FrmPrescreptionReport.Designer.vb">
+      <DependentUpon>FrmPrescreptionReport.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form8.vb">
+    <Compile Include="Forms\FrmPrescreptionReport.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Form9.Designer.vb">
-      <DependentUpon>Form9.vb</DependentUpon>
+    <Compile Include="Forms\FrmLogin.Designer.vb">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Form9.vb">
+    <Compile Include="Forms\FrmLogin.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\FRMLOGIN.Designer.vb">
-      <DependentUpon>FRMLOGIN.vb</DependentUpon>
+    <Compile Include="Forms\FrmTreasuryPrint.Designer.vb">
+      <DependentUpon>FrmTreasuryPrint.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\FRMLOGIN.vb">
+    <Compile Include="Forms\FrmTreasuryPrint.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\khazenaprint.Designer.vb">
-      <DependentUpon>khazenaprint.vb</DependentUpon>
+    <Compile Include="Forms\FrmExpensesReport.designer.vb">
+      <DependentUpon>FrmExpensesReport.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\khazenaprint.vb">
+    <Compile Include="Forms\FrmExpensesReport.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\lossprint.designer.vb">
-      <DependentUpon>lossprint.vb</DependentUpon>
+    <Compile Include="Forms\FrmMainOld.designer.vb">
+      <DependentUpon>FrmMainOld.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\lossprint.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\MDIParent1.designer.vb">
-      <DependentUpon>MDIParent1.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\MDIParent1.vb">
+    <Compile Include="Forms\FrmMainOld.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Modules\Module1.vb" />
-    <Compile Include="Forms\Mostafeed.Designer.vb">
-      <DependentUpon>Mostafeed.vb</DependentUpon>
+    <Compile Include="Forms\FrmMostafeed.Designer.vb">
+      <DependentUpon>FrmMostafeed.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Mostafeed.vb">
+    <Compile Include="Forms\FrmMostafeed.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -1032,10 +1014,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Forms\setting.Designer.vb">
-      <DependentUpon>setting.vb</DependentUpon>
+    <Compile Include="Forms\FrmSettings.Designer.vb">
+      <DependentUpon>FrmSettings.vb</DependentUpon>
     </Compile>
-    <Compile Include="Forms\setting.vb">
+    <Compile Include="Forms\FrmSettings.vb">
       <SubType>Form</SubType>
     </Compile>
     <EmbeddedResource Include="Reports\CrystalReport2.rpt">
@@ -1126,11 +1108,11 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CrystalReport57.vb</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Discount.resx">
-      <DependentUpon>Discount.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmDiscount.resx">
+      <DependentUpon>FrmDiscount.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\EDARA.resx">
-      <DependentUpon>EDARA.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmManagement.resx">
+      <DependentUpon>FrmManagement.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\Esalmaly.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
@@ -1144,17 +1126,17 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Eyradat.vb</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form16.resx">
-      <DependentUpon>Form16.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmExpenses.resx">
+      <DependentUpon>FrmExpenses.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form2.resx">
-      <DependentUpon>Form2.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmPatientProfile.resx">
+      <DependentUpon>FrmPatientProfile.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form60.resx">
-      <DependentUpon>Form60.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmSanadReportViewer.resx">
+      <DependentUpon>FrmSanadReportViewer.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form61.resx">
-      <DependentUpon>Form61.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmDischargeReport.resx">
+      <DependentUpon>FrmDischargeReport.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\kholasareport.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
@@ -1176,26 +1158,26 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>loss4.vb</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\MOLAKHAS.resx">
-      <DependentUpon>MOLAKHAS.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmSummeryReportViewer.resx">
+      <DependentUpon>FrmSummeryReportViewer.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\sanad.resx">
-      <DependentUpon>sanad.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmSanad.resx">
+      <DependentUpon>FrmSanad.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SEARCH.resx">
-      <DependentUpon>SEARCH.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmSearch.resx">
+      <DependentUpon>FrmSearch.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SittingPrinters.resx">
-      <DependentUpon>SittingPrinters.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmPrinterSettings.resx">
+      <DependentUpon>FrmPrinterSettings.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\TADEELDN.resx">
-      <DependentUpon>TADEELDN.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmDoctorEdit.resx">
+      <DependentUpon>FrmDoctorEdit.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\TADEELM.resx">
-      <DependentUpon>TADEELM.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmMostafeedEdit.resx">
+      <DependentUpon>FrmMostafeedEdit.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\TADEELvb.resx">
-      <DependentUpon>TADEELvb.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmDepartmentEdit.resx">
+      <DependentUpon>FrmDepartmentEdit.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\VIEW1.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
@@ -1220,8 +1202,8 @@
     </None>
     <None Include="MCS.exe.config" />
     <None Include="Resources\NAME CLINIC.txt" />
-    <EmbeddedResource Include="Forms\Alkhazena.resx">
-      <DependentUpon>Alkhazena.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmTreasuryReport.resx">
+      <DependentUpon>FrmTreasuryReport.vb</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Reports\crlossprint.rpt">
@@ -1296,203 +1278,194 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>CrystalReport37.vb</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Ejraa.resx">
-      <DependentUpon>Ejraa.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmProcedure.resx">
+      <DependentUpon>FrmProcedure.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ESALHAJEZ.resx">
-      <DependentUpon>ESALHAJEZ.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmReceiptReport.resx">
+      <DependentUpon>FrmReceiptReport.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form1.resx">
+    <EmbeddedResource Include="LabForms\Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form10.resx">
-      <DependentUpon>Form10.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmReception.resx">
+      <DependentUpon>FrmReception.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form11.resx">
-      <DependentUpon>Form11.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmPatientInfoPrint.resx">
+      <DependentUpon>FrmPatientInfoPrint.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form12.resx">
-      <DependentUpon>Form12.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmReportViewer.resx">
+      <DependentUpon>FrmReportViewer.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form13.resx">
-      <DependentUpon>Form13.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmReportDateSelector.resx">
+      <DependentUpon>FrmReportDateSelector.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form14.resx">
-      <DependentUpon>Form14.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmDoctorReport.resx">
+      <DependentUpon>FrmDoctorReport.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form15.resx">
-      <DependentUpon>Form15.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmDoctorReportViewer.resx">
+      <DependentUpon>FrmDoctorReportViewer.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form1622.resx">
-      <DependentUpon>Form1622.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmReportByCity.resx">
+      <DependentUpon>FrmReportByCity.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form17.resx">
-      <DependentUpon>Form17.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmReportBySex.resx">
+      <DependentUpon>FrmReportBySex.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form18.resx">
-      <DependentUpon>Form18.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmReportByCityViewer.resx">
+      <DependentUpon>FrmReportByCityViewer.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form19.resx">
-      <DependentUpon>Form19.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmReportBySexViewer.resx">
+      <DependentUpon>FrmReportBySexViewer.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form20.resx">
-      <DependentUpon>Form20.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmResultViewer.resx">
+      <DependentUpon>FrmResultViewer.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form21.resx">
-      <DependentUpon>Form21.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmUserManagement.resx">
+      <DependentUpon>FrmUserManagement.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form212.resx">
-      <DependentUpon>Form212.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmPatientDocs.resx">
+      <DependentUpon>FrmPatientDocs.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form22.resx">
-      <DependentUpon>Form22.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form23.resx">
+    <EmbeddedResource Include="LabForms\Form23.resx">
       <DependentUpon>Form23.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form24.resx">
-      <DependentUpon>Form24.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmGeneralLab.resx">
+      <DependentUpon>FrmGeneralLab.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form25.resx">
-      <DependentUpon>Form25.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form26.resx">
+    <EmbeddedResource Include="LabForms\Form26.resx">
       <DependentUpon>Form26.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form27.resx">
-      <DependentUpon>Form27.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmHormonalAssay.resx">
+      <DependentUpon>FrmHormonalAssay.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form28.resx">
-      <DependentUpon>Form28.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmTiriod.resx">
+      <DependentUpon>FrmTiriod.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form29.resx">
-      <DependentUpon>Form29.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmTorch.resx">
+      <DependentUpon>FrmTorch.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form3.resx">
-      <DependentUpon>Form3.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmModifyData.resx">
+      <DependentUpon>FrmModifyData.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form30.resx">
-      <DependentUpon>Form30.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmCBC.resx">
+      <DependentUpon>FrmCBC.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form31.resx">
-      <DependentUpon>Form31.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmProthonbin.resx">
+      <DependentUpon>FrmProthonbin.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form32.resx">
-      <DependentUpon>Form32.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmLFT.resx">
+      <DependentUpon>FrmLFT.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form33.resx">
-      <DependentUpon>Form33.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmRFT.resx">
+      <DependentUpon>FrmRFT.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form34.resx">
-      <DependentUpon>Form34.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmBioChem.resx">
+      <DependentUpon>FrmBioChem.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form35.resx">
-      <DependentUpon>Form35.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmElectrolytes.resx">
+      <DependentUpon>FrmElectrolytes.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form36.resx">
-      <DependentUpon>Form36.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmUrine.resx">
+      <DependentUpon>FrmUrine.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form37.resx">
-      <DependentUpon>Form37.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmSemen.resx">
+      <DependentUpon>FrmSemen.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form38.resx">
-      <DependentUpon>Form38.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmWidal.resx">
+      <DependentUpon>FrmWidal.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form39.resx">
-      <DependentUpon>Form39.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmVirology.resx">
+      <DependentUpon>FrmVirology.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form4.resx">
-      <DependentUpon>Form4.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmPrintProfile.resx">
+      <DependentUpon>FrmPrintProfile.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form40.resx">
-      <DependentUpon>Form40.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmSerology.resx">
+      <DependentUpon>FrmSerology.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form41.resx">
-      <DependentUpon>Form41.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmEIA.resx">
+      <DependentUpon>FrmEIA.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form42.resx">
-      <DependentUpon>Form42.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmLabReportViewer15.resx">
+      <DependentUpon>FrmLabReportViewer15.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form43.resx">
-      <DependentUpon>Form43.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmLabReportViewer14.resx">
+      <DependentUpon>FrmLabReportViewer14.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form44.resx">
-      <DependentUpon>Form44.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmLabReportViewer13.resx">
+      <DependentUpon>FrmLabReportViewer13.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form45.resx">
-      <DependentUpon>Form45.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmLabReportViewer12.resx">
+      <DependentUpon>FrmLabReportViewer12.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form46.resx">
-      <DependentUpon>Form46.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmLabReportViewer11.resx">
+      <DependentUpon>FrmLabReportViewer11.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form47.resx">
-      <DependentUpon>Form47.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmLabReportViewer10.resx">
+      <DependentUpon>FrmLabReportViewer10.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form48.resx">
-      <DependentUpon>Form48.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmLabReportViewer9.resx">
+      <DependentUpon>FrmLabReportViewer9.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form49.resx">
-      <DependentUpon>Form49.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmLabReportViewer8.resx">
+      <DependentUpon>FrmLabReportViewer8.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form5.resx">
-      <DependentUpon>Form5.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmLabSearch.resx">
+      <DependentUpon>FrmLabSearch.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form50.resx">
-      <DependentUpon>Form50.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmLabReportViewer7.resx">
+      <DependentUpon>FrmLabReportViewer7.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form51.resx">
-      <DependentUpon>Form51.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmLabReportViewer6.resx">
+      <DependentUpon>FrmLabReportViewer6.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form52.resx">
-      <DependentUpon>Form52.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmLabReportViewer5.resx">
+      <DependentUpon>FrmLabReportViewer5.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form53.resx">
-      <DependentUpon>Form53.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmLabReportViewer4.resx">
+      <DependentUpon>FrmLabReportViewer4.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form54.resx">
-      <DependentUpon>Form54.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmLabReportViewer3.resx">
+      <DependentUpon>FrmLabReportViewer3.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form55.resx">
-      <DependentUpon>Form55.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmLabReportViewer2.resx">
+      <DependentUpon>FrmLabReportViewer2.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form56.resx">
-      <DependentUpon>Form56.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmLabReportViewer1.resx">
+      <DependentUpon>FrmLabReportViewer1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form57.resx">
-      <DependentUpon>Form57.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmStatementViewer.resx">
+      <DependentUpon>FrmStatementViewer.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form58.resx">
-      <DependentUpon>Form58.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmDoctorPaymentsReport.resx">
+      <DependentUpon>FrmDoctorPaymentsReport.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form59.resx">
-      <DependentUpon>Form59.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmDelete.resx">
+      <DependentUpon>FrmDelete.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form6.resx">
-      <DependentUpon>Form6.vb</DependentUpon>
+    <EmbeddedResource Include="LabForms\FrmSearchByDate.resx">
+      <DependentUpon>FrmSearchByDate.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form7.resx">
-      <DependentUpon>Form7.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmLab.resx">
+      <DependentUpon>FrmLab.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form8.resx">
-      <DependentUpon>Form8.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmPrescreptionReport.resx">
+      <DependentUpon>FrmPrescreptionReport.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Form9.resx">
-      <DependentUpon>Form9.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmLogin.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\FRMLOGIN.resx">
-      <DependentUpon>FRMLOGIN.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmTreasuryPrint.resx">
+      <DependentUpon>FrmTreasuryPrint.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\khazenaprint.resx">
-      <DependentUpon>khazenaprint.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmExpensesReport.resx">
+      <DependentUpon>FrmExpensesReport.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\lossprint.resx">
-      <DependentUpon>lossprint.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmMainOld.resx">
+      <DependentUpon>FrmMainOld.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\MDIParent1.resx">
-      <DependentUpon>MDIParent1.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Mostafeed.resx">
-      <DependentUpon>Mostafeed.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmMostafeed.resx">
+      <DependentUpon>FrmMostafeed.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -1504,8 +1477,8 @@
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>Print12.vb</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\setting.resx">
-      <DependentUpon>setting.vb</DependentUpon>
+    <EmbeddedResource Include="Forms\FrmSettings.resx">
+      <DependentUpon>FrmSettings.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
